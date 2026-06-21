@@ -31,11 +31,14 @@ export default function ProductsPage() {
                 )}
               </div>
               
-              <div className="overflow-x-auto">
+              <div className="bg-slate-50 dark:bg-slate-900 px-4 py-2 text-[10px] uppercase tracking-widest text-slate-500 flex items-center gap-2 md:hidden border-b border-slate-200 dark:border-slate-800">
+                <span className="animate-pulse">←</span> Swipe to view specs <span className="animate-pulse">→</span>
+              </div>
+              <div className="overflow-x-auto relative">
                 <table className="w-full text-left text-sm text-slate-600 dark:text-slate-300">
                   <thead className="bg-slate-50 dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 font-mono text-xs uppercase tracking-wider text-gray-500 dark:text-gray-400">
                     <tr>
-                      <th className="px-8 py-5 font-bold">Grade / Type</th>
+                      <th className="px-8 py-5 font-bold sticky left-0 z-20 bg-slate-50 dark:bg-slate-900 border-r border-slate-200 dark:border-slate-800 shadow-[2px_0_5px_-2px_rgba(0,0,0,0.1)]">Grade / Type</th>
                       {Array.from(new Set(product.specs.flatMap(s => Object.keys(s).filter(k => k !== 'grade')))).map(key => (
                         <th key={key} className="px-6 py-5 font-semibold text-blue-800 dark:text-blue-400">{key}</th>
                       ))}
@@ -43,8 +46,8 @@ export default function ProductsPage() {
                   </thead>
                   <tbody className="divide-y divide-slate-100 dark:divide-slate-800">
                     {product.specs.map((spec, idx) => (
-                      <tr key={idx} className="hover:bg-blue-50/30 dark:hover:bg-blue-900/20 transition-colors">
-                        <td className="px-8 py-5 font-bold text-[var(--color-primary)] bg-slate-100 dark:bg-slate-800/50">{spec.grade}</td>
+                      <tr key={idx} className="hover:bg-blue-50/30 dark:hover:bg-blue-900/20 transition-colors group">
+                        <td className="px-8 py-5 font-bold text-[var(--color-primary)] sticky left-0 z-10 bg-slate-100 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-800 shadow-[2px_0_5px_-2px_rgba(0,0,0,0.1)] group-hover:bg-blue-50/80 dark:group-hover:bg-blue-900/80 transition-colors">{spec.grade}</td>
                         {Array.from(new Set(product.specs.flatMap(s => Object.keys(s).filter(k => k !== 'grade')))).map(key => (
                           <td key={key} className="px-6 py-5 font-mono text-xs text-slate-700 dark:text-slate-300 whitespace-nowrap">
                             {(spec as any)[key] || "-"}
