@@ -1,0 +1,148 @@
+[
+  {
+    "id": "ferro-silicon",
+    "name": "Ferro Silicon",
+    "category": "Ferro Alloys",
+    "description": "Used as an essential deoxidizer and alloying element in steel manufacturing.",
+    "specs": [
+      {
+        "grade": "Ferro Silicon 75-80%",
+        "si": "75 - 80%",
+        "al": "1.0% & 1.5% Max",
+        "c": "0.1% Max",
+        "s": "0.04% Max",
+        "p": "0.04% Max",
+        "size": "10–50mm (Min 90%) or 10–100mm (Min 90%)"
+      },
+      {
+        "grade": "Ferro Silicon 70-75%",
+        "si": "70 - 75%",
+        "al": "1.0% & 1.5% Max",
+        "c": "0.1% Max",
+        "s": "0.04% Max",
+        "p": "0.04% Max",
+        "size": "10–50mm (Min 90%) or 10–100mm (Min 90%)"
+      }
+    ]
+  },
+  {
+    "id": "silico-manganese",
+    "name": "Silico Manganese & MC Silico Manganese",
+    "category": "Ferro Alloys",
+    "description": "Manganese is essential to iron and steel production by virtue of its sulfur-fixing, deoxidizing, and alloying properties.",
+    "specs": [
+      {
+        "grade": "HC Silico Manganese 60/14",
+        "mn": "60% Min",
+        "si": "14% Min",
+        "c": "2.5% Max",
+        "p": "0.35% Max",
+        "s": "0.05% Max"
+      },
+      {
+        "grade": "HC Silico Manganese 65/15",
+        "mn": "65% Min",
+        "si": "15% Min",
+        "c": "2.25% Max",
+        "p": "0.35% Max",
+        "s": "0.04% Max"
+      },
+      {
+        "grade": "Medium Carbon (MC) Silico Manganese",
+        "mn": "60%",
+        "si": "14%",
+        "form": "Solid",
+        "packaging": "Gunny Bags",
+        "usage": "Industrial / Steel Production",
+        "size": "1 To 5 MM"
+      }
+    ]
+  },
+  {
+    "id": "ferro-manganese",
+    "name": "Ferro Manganese",
+    "category": "Ferro Alloys",
+    "specs": [
+      {
+        "grade": "High Carbon (HC)",
+        "mn": "65 – 70 – 75% Min",
+        "si": "1.50% Max",
+        "c": "6.0 – 8.0% Max",
+        "p": "0.30% Max",
+        "s": "0.05% Max",
+        "size": "25 – 125 mm"
+      },
+      {
+        "grade": "Medium Carbon (MC)",
+        "mn": "75 – 80%",
+        "si": "1.0 – 1.5% Max",
+        "c": "1.5 – 2.0% Max",
+        "p": "0.40% Max",
+        "s": "0.05% Max"
+      },
+      {
+        "grade": "Low Carbon (LC)",
+        "mn": "75 – 80%",
+        "si": "1.0 – 1.5% Max",
+        "c": "0.5% Max",
+        "p": "0.40% Max",
+        "s": "0.05% Max"
+      }
+    ]
+  },
+  {
+    "id": "ferro-chrome",
+    "name": "Ferro Chrome",
+    "category": "Ferro Alloys",
+    "specs": [
+      {
+        "grade": "High Carbon Ferro Chrome",
+        "cr": "60% Min",
+        "c": "8% Max",
+        "si": "3.0% Max",
+        "s": "0.04% Max",
+        "p": "0.04% Max",
+        "cu": "0.5% Max",
+        "size": "10 – 150 mm"
+      },
+      {
+        "grade": "Low Carbon Ferro Chrome",
+        "cr": "65% Min",
+        "c": "0.03%, 0.05%, 0.1% Max",
+        "si": "1.0% Max",
+        "s": "0.03% Max",
+        "p": "0.04% Max",
+        "size": "10 – 50 mm"
+      }
+    ]
+  },
+  {
+    "id": "carbon-raiser",
+    "name": "Carbon Raiser 93%",
+    "category": "Carbon Products",
+    "description": "Qualitative range of Carburetors procured from reputed manufacturers in China.",
+    "specs": [
+      {
+        "grade": "Carbon Raiser 93%",
+        "c": "93% Specification Minimum",
+        "sourcing": "Top tier global manufacturers in China"
+      }
+    ]
+  },
+  {
+    "id": "graphite-petroleum-coke",
+    "name": "Graphite Petroleum Coke",
+    "category": "Carbon Products",
+    "specs": [
+      {
+        "grade": "Standard Industrial Grade",
+        "c": "98.5% Guaranteed",
+        "s": "0.05% Max",
+        "form": "Granules",
+        "packaging": "Bags",
+        "size": "0.2 – 1 mm, 1 – 5 mm",
+        "moq": "500 Kilograms"
+      }
+    ]
+  }
+]
