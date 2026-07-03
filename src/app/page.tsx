@@ -24,30 +24,28 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-b from-[#002045]/90 via-[#002045]/60 to-[var(--color-background)]"></div>
         </div>
         
-        <div className="relative z-10 max-w-5xl mx-auto px-6 text-center mt-8 md:mt-16">
+        <div className="relative z-10 max-w-5xl mx-auto px-6 text-center mt-20">
           
           {/* Company Identity */}
-          <div className="flex flex-col items-center justify-center mb-12">
-            <div className="relative w-32 h-32 md:w-48 md:h-48 mb-6 drop-shadow-2xl hover:scale-105 transition-transform duration-500">
-              <Image src="/Logo_final.png" alt="Shri Narsingh Micro Alloys Logo" fill sizes="(max-width: 768px) 128px, 192px" className="object-contain" priority />
+          <div className="flex flex-col items-center justify-center mb-6">
+            <div className="relative w-28 h-28 md:w-36 md:h-36 mb-4 drop-shadow-2xl hover:scale-105 transition-transform duration-500">
+              <Image src="/Logo_final.png" alt="Shri Narsingh Micro Alloys Logo" fill sizes="(max-width: 768px) 112px, 144px" className="object-contain" priority />
             </div>
-            <h2 className="text-4xl md:text-6xl font-extrabold tracking-widest uppercase text-white drop-shadow-2xl mb-2">
+            <h2 className="text-3xl md:text-5xl font-extrabold tracking-widest uppercase text-white drop-shadow-2xl mb-1">
               Shri Narsingh
             </h2>
-            <h3 className="text-lg md:text-2xl text-blue-300 tracking-[0.3em] uppercase font-bold drop-shadow-lg">
+            <h3 className="text-sm md:text-xl text-blue-300 tracking-[0.3em] uppercase font-bold drop-shadow-lg">
               Micro Alloys
             </h3>
           </div>
 
-          <h1 className="text-4xl md:text-6xl font-bold text-white tracking-tight leading-tight mb-6 uppercase">
-            {t("home.unrivaled_quality")} <br/>
+          <h1 className="text-3xl md:text-5xl font-bold text-white tracking-tight leading-tight mb-8 uppercase">
+            {t("home.unrivaled_quality")} <br className="hidden md:block" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-200">
               {t("home.metals")}
             </span>
           </h1>
-          <p className="text-lg md:text-xl text-blue-100 max-w-3xl mx-auto mb-10 leading-relaxed">
-            {t("home.company_mission")}
-          </p>
+          
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link href="/products" className="bg-[var(--color-secondary)] hover:bg-blue-600 text-white px-8 py-4 font-bold uppercase tracking-widest text-sm transition-colors shadow-[0_0_15px_rgba(59,130,246,0.3)] flex items-center gap-2">
               {t("home.explore_catalog")} <ArrowRight className="w-4 h-4" />
