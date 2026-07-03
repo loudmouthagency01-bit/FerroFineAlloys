@@ -117,7 +117,77 @@ export default function Home() {
       {/* SVG Angled Divider */}
       <div className="w-full overflow-hidden leading-[0]">
         <svg className="relative block w-[calc(100%+1.3px)] h-[40px] md:h-[60px]" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1200 120">
-            <path d="M1200 120L0 16.48V0h1200v120z" className="fill-[var(--color-background)]"></path>
+            <path d="M1200 120L0 16.48V0h1200v120z" className="fill-[#050f1d]"></path>
+        </svg>
+      </div>
+
+      {/* Certifications & Compliance Section */}
+      <section className="relative py-24 overflow-hidden">
+        {/* Background Image with Overlay */}
+        <div className="absolute inset-0 z-0 bg-[#050f1d]">
+          <Image
+            src="/hero_bg.png"
+            alt="Manufacturing Facility Background"
+            fill
+            className="object-cover opacity-30 mix-blend-color-dodge grayscale"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-[#050f1d] via-[#050f1d]/80 to-[#050f1d]"></div>
+        </div>
+
+        <div className="relative z-10 max-w-6xl mx-auto px-6">
+          <div className="text-left mb-16">
+            <h2 className="text-4xl md:text-5xl font-extrabold text-white tracking-wide uppercase mb-3">
+              Certifications & Compliance
+            </h2>
+            <p className="text-slate-400 text-lg">
+              Committed to Quality and International Standards
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Card 1 */}
+            <div className="flex flex-col items-center text-center bg-black/60 backdrop-blur-md border border-slate-700/50 hover:border-orange-500/50 p-10 rounded-2xl transition-all duration-300 hover:-translate-y-2 shadow-xl hover:shadow-[0_10px_40px_-10px_rgba(249,115,22,0.3)]">
+              <div className="text-orange-400 mb-6">
+                <ShieldCheck className="w-12 h-12" />
+              </div>
+              <h3 className="text-xl font-bold text-white mb-4">Registered & Certified</h3>
+              <div className="w-12 h-[1px] bg-slate-600 mb-6"></div>
+              <p className="text-slate-300 text-sm leading-relaxed">
+                SHRI NARSINGH MICRO ALLOYS is a fully registered, certified, and trademarked entity.
+              </p>
+            </div>
+
+            {/* Card 2 */}
+            <div className="flex flex-col items-center text-center bg-black/60 backdrop-blur-md border border-slate-700/50 hover:border-orange-500/50 p-10 rounded-2xl transition-all duration-300 hover:-translate-y-2 shadow-xl hover:shadow-[0_10px_40px_-10px_rgba(249,115,22,0.3)]">
+              <div className="text-orange-400 mb-6">
+                <Award className="w-12 h-12" />
+              </div>
+              <h3 className="text-xl font-bold text-white mb-4">Regulatory Approvals</h3>
+              <div className="w-12 h-[1px] bg-slate-600 mb-6"></div>
+              <p className="text-slate-300 text-sm leading-relaxed">
+                We hold all necessary regulatory approvals and industry-standard certifications.
+              </p>
+            </div>
+
+            {/* Card 3 */}
+            <div className="flex flex-col items-center text-center bg-black/60 backdrop-blur-md border border-slate-700/50 hover:border-orange-500/50 p-10 rounded-2xl transition-all duration-300 hover:-translate-y-2 shadow-xl hover:shadow-[0_10px_40px_-10px_rgba(249,115,22,0.3)]">
+              <div className="text-orange-400 mb-6">
+                <Globe className="w-12 h-12" />
+              </div>
+              <h3 className="text-xl font-bold text-white mb-4">Quality & Compliance</h3>
+              <div className="w-12 h-[1px] bg-slate-600 mb-6"></div>
+              <p className="text-slate-300 text-sm leading-relaxed">
+                Our stringent quality control ensures every batch meets international specifications and compliance requirements.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SVG Angled Divider */}
+      <div className="w-full overflow-hidden leading-[0] rotate-180">
+        <svg className="relative block w-[calc(100%+1.3px)] h-[40px] md:h-[60px]" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1200 120">
+            <path d="M1200 120L0 16.48V0h1200v120z" className="fill-[#050f1d]"></path>
         </svg>
       </div>
 
