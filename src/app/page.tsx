@@ -67,52 +67,6 @@ export default function Home() {
         </p>
       </section>
 
-      {/* SVG Angled Divider */}
-      <div className="w-full overflow-hidden leading-[0] rotate-180">
-        <svg className="relative block w-[calc(100%+1.3px)] h-[40px] md:h-[60px]" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1200 120">
-            <path d="M1200 120L0 16.48V0h1200v120z" className="fill-[var(--color-background)]"></path>
-        </svg>
-      </div>
-
-      {/* Core Pillars Grid */}
-      <section className="bg-[var(--color-background)] py-24">
-        <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center text-[var(--color-primary)] mb-16 uppercase tracking-wide">{t("home.core_pillars")}</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-            
-            <div className="flex flex-col items-start border border-slate-200 dark:border-slate-800 p-8 hover:border-[var(--color-secondary)] transition-colors bg-slate-50 dark:bg-slate-900 shadow-sm hover:shadow-md">
-              <div className="w-12 h-12 bg-blue-50 dark:bg-blue-900/20 flex items-center justify-center mb-6 text-[var(--color-secondary)]">
-                <Award className="w-6 h-6" />
-              </div>
-              <h4 className="text-xl font-bold text-[var(--color-primary)] mb-4">{t("home.world_class_quality")}</h4>
-              <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-sm">
-                {t("home.quality_desc")}
-              </p>
-            </div>
-
-            <div className="flex flex-col items-start border border-slate-200 dark:border-slate-800 p-8 hover:border-[var(--color-secondary)] transition-colors bg-slate-50 dark:bg-slate-900 shadow-sm hover:shadow-md">
-              <div className="w-12 h-12 bg-blue-50 dark:bg-blue-900/20 flex items-center justify-center mb-6 text-[var(--color-secondary)]">
-                <ShieldCheck className="w-6 h-6" />
-              </div>
-              <h4 className="text-xl font-bold text-[var(--color-primary)] mb-4">{t("home.professional_team")}</h4>
-              <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-sm">
-                {t("home.team_desc")}
-              </p>
-            </div>
-
-            <div className="flex flex-col items-start border border-slate-200 dark:border-slate-800 p-8 hover:border-[var(--color-secondary)] transition-colors bg-slate-50 dark:bg-slate-900 shadow-sm hover:shadow-md">
-              <div className="w-12 h-12 bg-blue-50 dark:bg-blue-900/20 flex items-center justify-center mb-6 text-[var(--color-secondary)]">
-                <Truck className="w-6 h-6" />
-              </div>
-              <h4 className="text-xl font-bold text-[var(--color-primary)] mb-4">{t("home.spacious_warehouse")}</h4>
-              <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-sm">
-                {t("home.warehouse_desc")}
-              </p>
-            </div>
-
-          </div>
-        </div>
-      </section>
 
       {/* SVG Angled Divider */}
       <div className="w-full overflow-hidden leading-[0]">
