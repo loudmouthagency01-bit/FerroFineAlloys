@@ -24,7 +24,21 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-b from-[#002045]/90 via-[#002045]/60 to-[var(--color-background)]"></div>
         </div>
         
-        <div className="relative z-10 max-w-5xl mx-auto px-6 text-center mt-16">
+        <div className="relative z-10 max-w-5xl mx-auto px-6 text-center mt-8 md:mt-16">
+          
+          {/* Company Identity */}
+          <div className="flex flex-col items-center justify-center mb-10 drop-shadow-xl">
+            <div className="relative w-24 h-24 md:w-32 md:h-32 bg-white rounded-lg p-3 mb-6 shadow-[0_0_40px_rgba(255,255,255,0.15)] flex items-center justify-center">
+              <Image src="/Logo.png" alt="Shri Narsingh Micro Alloys Logo" width={100} height={100} className="object-contain" priority />
+            </div>
+            <h2 className="text-3xl md:text-5xl font-extrabold tracking-[0.15em] uppercase text-white drop-shadow-lg mb-2">
+              Shri Narsingh
+            </h2>
+            <h3 className="text-sm md:text-xl text-blue-300 font-mono tracking-[0.3em] uppercase font-semibold">
+              Micro Alloys
+            </h3>
+          </div>
+
           <h1 className="text-4xl md:text-6xl font-bold text-white tracking-tight leading-tight mb-6 uppercase">
             {t("home.unrivaled_quality")} <br/>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-200">
