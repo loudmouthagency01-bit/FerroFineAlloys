@@ -29,7 +29,7 @@ export default function Home() {
           {/* Company Identity */}
           <div className="flex flex-col items-center justify-center mb-12">
             <div className="relative w-32 h-32 md:w-48 md:h-48 mb-6 drop-shadow-2xl hover:scale-105 transition-transform duration-500">
-              <Image src="/Logo_transparent.png" alt="Shri Narsingh Micro Alloys Logo" fill sizes="(max-width: 768px) 128px, 192px" className="object-contain" priority />
+              <Image src="/Logo_final.png" alt="Shri Narsingh Micro Alloys Logo" fill sizes="(max-width: 768px) 128px, 192px" className="object-contain" priority />
             </div>
             <h2 className="text-4xl md:text-6xl font-extrabold tracking-widest uppercase text-white drop-shadow-2xl mb-2">
               Shri Narsingh
