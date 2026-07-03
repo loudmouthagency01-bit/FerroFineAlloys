@@ -20,12 +20,12 @@ export default function Navigation() {
         <div className="flex items-center justify-between w-full">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 md:gap-4 group z-50" onClick={() => setIsMobileMenuOpen(false)}>
-            <div className="relative w-10 h-10 md:w-12 md:h-12 bg-white flex items-center justify-center p-1 rounded-sm shadow-md">
-              <Image src="/Logo.png" alt="Shri Narsingh Micro Alloys Logo" width={48} height={48} className="object-contain" />
+            <div className="relative w-12 h-12 md:w-16 md:h-16 bg-white flex items-center justify-center p-1.5 rounded-sm shadow-[0_0_15px_rgba(255,255,255,0.2)]">
+              <Image src="/Logo.png" alt="Shri Narsingh Micro Alloys Logo" width={56} height={56} className="object-contain" />
             </div>
-            <div className="flex flex-col">
-              <span className="font-bold text-xs md:text-sm tracking-wider uppercase leading-none mb-1 text-[var(--color-primary)]">Shri Narsingh</span>
-              <span className="text-[9px] md:text-[10px] text-[var(--color-secondary)] uppercase tracking-widest font-mono">Micro Alloys</span>
+            <div className="flex flex-col drop-shadow-md">
+              <span className="font-extrabold text-sm md:text-xl tracking-widest uppercase leading-none mb-1 text-white">Shri Narsingh</span>
+              <span className="text-[10px] md:text-xs text-blue-300 uppercase tracking-[0.2em] font-mono font-semibold">Micro Alloys</span>
             </div>
           </Link>
 
