@@ -20,8 +20,8 @@ export default function Navigation() {
         <div className="flex items-center justify-between w-full">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 md:gap-4 group z-50" onClick={() => setIsMobileMenuOpen(false)}>
-            <div className="relative w-10 h-10 md:w-12 md:h-12 bg-white flex items-center justify-center p-1 rounded-sm shadow-md">
-              <Image src="/Logo.png" alt="Shri Narsingh Micro Alloys Logo" width={48} height={48} className="object-contain" />
+            <div className="relative w-10 h-10 md:w-12 md:h-12 flex items-center justify-center drop-shadow-md">
+              <Image src="/Logo_transparent.png" alt="Shri Narsingh Micro Alloys Logo" width={48} height={48} className="object-contain" />
             </div>
             <div className="flex flex-col">
               <span className="font-bold text-xs md:text-sm tracking-wider uppercase leading-none mb-1 text-[var(--color-primary)]">Shri Narsingh</span>

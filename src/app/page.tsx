@@ -27,14 +27,14 @@ export default function Home() {
         <div className="relative z-10 max-w-5xl mx-auto px-6 text-center mt-8 md:mt-16">
           
           {/* Company Identity */}
-          <div className="flex flex-col items-center justify-center mb-10 drop-shadow-xl">
-            <div className="relative w-24 h-24 md:w-32 md:h-32 bg-white rounded-lg p-3 mb-6 shadow-[0_0_40px_rgba(255,255,255,0.15)] flex items-center justify-center">
-              <Image src="/Logo.png" alt="Shri Narsingh Micro Alloys Logo" width={100} height={100} className="object-contain" priority />
+          <div className="flex flex-col items-center justify-center mb-12">
+            <div className="relative w-32 h-32 md:w-48 md:h-48 mb-6 drop-shadow-2xl hover:scale-105 transition-transform duration-500">
+              <Image src="/Logo_transparent.png" alt="Shri Narsingh Micro Alloys Logo" fill sizes="(max-width: 768px) 128px, 192px" className="object-contain" priority />
             </div>
-            <h2 className="text-3xl md:text-5xl font-extrabold tracking-[0.15em] uppercase text-white drop-shadow-lg mb-2">
+            <h2 className="text-4xl md:text-6xl font-extrabold tracking-widest uppercase text-white drop-shadow-2xl mb-2">
               Shri Narsingh
             </h2>
-            <h3 className="text-sm md:text-xl text-blue-300 font-mono tracking-[0.3em] uppercase font-semibold">
+            <h3 className="text-lg md:text-2xl text-blue-300 tracking-[0.3em] uppercase font-bold drop-shadow-lg">
               Micro Alloys
             </h3>
           </div>
