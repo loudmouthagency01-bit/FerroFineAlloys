@@ -13,7 +13,7 @@ export default function Footer() {
         <div>
           <h3 className="text-xl font-bold mb-4 font-sans uppercase tracking-widest text-[var(--color-secondary)]">{companyData.name}</h3>
           <p className="text-gray-400 text-sm mb-2 font-mono">{t("footer.cin")} {companyData.cin}</p>
-          <p className="text-gray-400 text-sm">{t("footer.incorporated")} {companyData.incorporationDate}</p>
+          <p className="text-gray-400 text-sm">{t("footer.incorporated")} {companyData.established}</p>
         </div>
         <div>
           <h4 className="text-sm font-bold uppercase tracking-widest mb-4 text-gray-400">{t("contact.asia_hq")}</h4>

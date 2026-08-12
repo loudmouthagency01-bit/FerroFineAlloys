@@ -28,18 +28,12 @@ export default function Home() {
           
           {/* Company Identity */}
           <div className="flex flex-col items-center justify-center mb-6">
-            <div className="relative w-28 h-28 md:w-36 md:h-36 mb-4 drop-shadow-2xl hover:scale-105 transition-transform duration-500">
-              <Image src="/Logo_final.png" alt="Shri Narsingh Micro Alloys Logo" fill sizes="(max-width: 768px) 112px, 144px" className="object-contain" priority />
-            </div>
-            <h2 className="text-3xl md:text-5xl font-extrabold tracking-widest uppercase text-white drop-shadow-2xl mb-1">
-              Shri Narsingh
+            <h2 className="text-5xl md:text-7xl font-extrabold tracking-widest uppercase text-white drop-shadow-2xl mb-4 mt-8">
+              Ferro Fine Alloy
             </h2>
-            <h3 className="text-sm md:text-xl text-blue-300 tracking-[0.3em] uppercase font-bold drop-shadow-lg">
-              Micro Alloys
-            </h3>
           </div>
 
-          <h1 className="text-3xl md:text-5xl font-bold text-white tracking-tight leading-tight mb-8 uppercase">
+          <h1 className="font-heading text-3xl md:text-5xl font-bold text-white tracking-tight leading-tight mb-8 uppercase">
             {t("home.unrivaled_quality")} <br className="hidden md:block" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-200">
               {t("home.metals")}
@@ -59,8 +53,8 @@ export default function Home() {
 
       {/* Overview Section */}
       <section className="py-24 px-6 max-w-5xl mx-auto text-center">
-        <h2 className="text-sm font-bold text-[var(--color-secondary)] uppercase tracking-widest mb-4">{t("home.corporate_overview")}</h2>
-        <h3 className="text-3xl font-bold text-[var(--color-primary)] mb-8">{t("home.company_vision")}</h3>
+        <h2 className="font-heading text-sm font-bold text-[var(--color-secondary)] uppercase tracking-widest mb-4">{t("home.corporate_overview")}</h2>
+        <h3 className="font-heading text-3xl font-bold text-[var(--color-primary)] mb-8">{t("home.company_vision")}</h3>
         <div className="w-24 h-1 bg-blue-500 mx-auto mb-8"></div>
         <p className="text-slate-600 text-lg leading-loose max-w-4xl mx-auto">
           {t("home.company_overview")}
@@ -71,7 +65,7 @@ export default function Home() {
       {/* SVG Angled Divider */}
       <div className="w-full overflow-hidden leading-[0]">
         <svg className="relative block w-[calc(100%+1.3px)] h-[40px] md:h-[60px]" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1200 120">
-            <path d="M1200 120L0 16.48V0h1200v120z" className="fill-[#050f1d]"></path>
+            <path d="M1200 120L0 16.48V0h1200v120z" fill="#050f1d"></path>
         </svg>
       </div>
 
@@ -90,7 +84,7 @@ export default function Home() {
 
         <div className="relative z-10 max-w-6xl mx-auto px-6">
           <div className="text-left mb-16">
-            <h2 className="text-4xl md:text-5xl font-extrabold text-white tracking-wide uppercase mb-3">
+            <h2 className="font-heading text-4xl md:text-5xl font-extrabold text-white tracking-wide uppercase mb-3">
               Certifications & Compliance
             </h2>
             <p className="text-slate-400 text-lg">
@@ -104,10 +98,10 @@ export default function Home() {
               <div className="text-orange-400 mb-6">
                 <ShieldCheck className="w-12 h-12" />
               </div>
-              <h3 className="text-xl font-bold text-white mb-4">Registered & Certified</h3>
+              <h3 className="font-heading text-xl font-bold text-white mb-4">Registered & Certified</h3>
               <div className="w-12 h-[1px] bg-slate-600 mb-6"></div>
               <p className="text-slate-300 text-sm leading-relaxed">
-                SHRI NARSINGH MICRO ALLOYS is a fully registered, certified, and trademarked entity.
+                Ferro Fine Alloy is a fully registered, certified, and trademarked entity.
               </p>
             </div>
 
@@ -116,7 +110,7 @@ export default function Home() {
               <div className="text-orange-400 mb-6">
                 <Award className="w-12 h-12" />
               </div>
-              <h3 className="text-xl font-bold text-white mb-4">Regulatory Approvals</h3>
+              <h3 className="font-heading text-xl font-bold text-white mb-4">Regulatory Approvals</h3>
               <div className="w-12 h-[1px] bg-slate-600 mb-6"></div>
               <p className="text-slate-300 text-sm leading-relaxed">
                 We hold all necessary regulatory approvals and industry-standard certifications.
@@ -128,7 +122,7 @@ export default function Home() {
               <div className="text-orange-400 mb-6">
                 <Globe className="w-12 h-12" />
               </div>
-              <h3 className="text-xl font-bold text-white mb-4">Quality & Compliance</h3>
+              <h3 className="font-heading text-xl font-bold text-white mb-4">Quality & Compliance</h3>
               <div className="w-12 h-[1px] bg-slate-600 mb-6"></div>
               <p className="text-slate-300 text-sm leading-relaxed">
                 Our stringent quality control ensures every batch meets international specifications and compliance requirements.
@@ -141,7 +135,7 @@ export default function Home() {
       {/* SVG Angled Divider */}
       <div className="w-full overflow-hidden leading-[0] rotate-180">
         <svg className="relative block w-[calc(100%+1.3px)] h-[40px] md:h-[60px]" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1200 120">
-            <path d="M1200 120L0 16.48V0h1200v120z" className="fill-[#050f1d]"></path>
+            <path d="M1200 120L0 16.48V0h1200v120z" style={{ fill: 'var(--color-background)' }}></path>
         </svg>
       </div>
 
@@ -149,18 +143,18 @@ export default function Home() {
       <section className="py-24 bg-[var(--color-background)]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-sm font-bold text-[var(--color-secondary)] uppercase tracking-widest mb-4">{t("home.premium_materials")}</h2>
-            <h3 className="text-4xl font-bold text-[var(--color-primary)] uppercase tracking-wide">{t("home.product_portfolio")}</h3>
+            <h2 className="font-heading text-sm font-bold text-[var(--color-secondary)] uppercase tracking-widest mb-4">{t("home.premium_materials")}</h2>
+            <h3 className="font-heading text-4xl font-bold text-[var(--color-primary)] uppercase tracking-wide">{t("home.product_portfolio")}</h3>
             <div className="w-24 h-1 bg-blue-500 mx-auto mt-8"></div>
             <p className="text-slate-600 mt-6 max-w-2xl mx-auto">{t("home.hover_explore")}</p>
           </div>
 
-          <div className="flex flex-col md:flex-row w-full h-[600px] md:h-[450px] gap-2">
+          <div className="flex flex-col md:flex-row flex-wrap md:flex-nowrap w-full min-h-[500px] md:min-h-0 md:h-[50vh] gap-2">
             {productsData.map((product) => (
               <Link 
                 href={`/products`} 
                 key={product.id} 
-                className="relative flex-1 md:hover:flex-[4] hover:flex-[2] transition-all duration-700 ease-in-out group overflow-hidden border border-slate-300 bg-slate-900"
+                className="relative flex-1 md:hover:flex-[4] hover:flex-[2] transition-all duration-700 ease-in-out group overflow-hidden border border-slate-300 dark:border-slate-700 bg-slate-900"
               >
                 <Image
                   src={`/${product.id}.png`}
@@ -169,7 +163,7 @@ export default function Home() {
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   className="object-cover opacity-60 group-hover:opacity-100 transition-opacity duration-700 grayscale group-hover:grayscale-0"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-primary)]/90 via-transparent to-transparent group-hover:from-[var(--color-primary)]/80 transition-all duration-700"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0a182b]/90 via-transparent to-transparent group-hover:from-[var(--color-primary)]/80 transition-all duration-700"></div>
                 
                 {/* Vertical title (Default State) */}
                 <div className="absolute inset-0 flex items-center justify-center md:items-end md:justify-center md:pb-8 opacity-100 md:group-hover:opacity-0 transition-opacity duration-300">
@@ -185,7 +179,7 @@ export default function Home() {
                   </span>
                   <h4 className="text-xl font-bold text-white uppercase tracking-wide drop-shadow-lg mb-2 leading-tight">{product.name}</h4>
                   <p className="text-blue-100 text-xs hidden lg:block drop-shadow-md line-clamp-2">
-                    {product.description || `Premium industrial grade ${product.name.toLowerCase()} sourced and supplied with unrivaled quality assurance.`}
+                    {product.description}
                   </p>
                 </div>
               </Link>
@@ -197,7 +191,7 @@ export default function Home() {
       {/* SVG Angled Divider */}
       <div className="w-full overflow-hidden leading-[0] rotate-180">
         <svg className="relative block w-[calc(100%+1.3px)] h-[40px] md:h-[60px]" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1200 120">
-            <path d="M1200 120L0 16.48V0h1200v120z" className="fill-[var(--color-primary-container)]"></path>
+            <path d="M1200 120L0 16.48V0h1200v120z" style={{ fill: 'var(--color-primary-container)' }}></path>
         </svg>
       </div>
 
@@ -216,15 +210,15 @@ export default function Home() {
       {/* SVG Angled Divider */}
       <div className="w-full overflow-hidden leading-[0]">
         <svg className="relative block w-[calc(100%+1.3px)] h-[40px] md:h-[60px]" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1200 120">
-            <path d="M1200 120L0 16.48V0h1200v120z" className="fill-[var(--color-primary-container)]"></path>
+            <path d="M1200 120L0 16.48V0h1200v120z" style={{ fill: 'var(--color-primary-container)' }}></path>
         </svg>
       </div>
 
       {/* Global Partners Marquee */}
       <section className="py-20 bg-[var(--color-background)] overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 mb-12 text-center">
-          <h2 className="text-sm font-bold text-[var(--color-secondary)] uppercase tracking-widest mb-4">{t("home.trusted_worldwide")}</h2>
-          <h3 className="text-3xl font-bold text-[var(--color-primary)] uppercase tracking-wide">{t("home.global_partners")}</h3>
+          <h2 className="font-heading text-sm font-bold text-[var(--color-secondary)] uppercase tracking-widest mb-4">{t("home.trusted_worldwide")}</h2>
+          <h3 className="font-heading text-3xl font-bold text-[var(--color-primary)] uppercase tracking-wide">{t("home.global_partners")}</h3>
           <div className="w-16 h-1 bg-blue-500 mx-auto mt-6"></div>
         </div>
         
@@ -243,6 +237,20 @@ export default function Home() {
           </div>
           <div className="pointer-events-none absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-[var(--color-background)] to-transparent"></div>
           <div className="pointer-events-none absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-[var(--color-background)] to-transparent"></div>
+        </div>
+      </section>
+      {/* Company Summary Section */}
+      <section className="py-24 bg-[var(--color-primary-container)] text-white">
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <h2 className="font-heading text-sm font-bold text-[var(--color-secondary)] uppercase tracking-widest mb-4">{t("home.company_profile_summary")}</h2>
+          <h3 className="font-heading text-3xl font-bold uppercase tracking-wide mb-8">Ferro Fine Alloy</h3>
+          <div className="w-24 h-1 bg-blue-500 mx-auto mb-8"></div>
+          <p className="text-slate-300 text-lg leading-relaxed mb-6">
+            Established in 2008, Ferro Fine Alloy is a pioneer in Powder Metallurgy and all types of metals. We specialize in atomized metal powders, ferro alloys, inoculants, carbons, and more.
+          </p>
+          <p className="text-slate-400 text-md leading-relaxed">
+            With a robust global reach, we supply to the USA, Europe, Middle East, and Asia, including Pan India, ensuring world-class quality and reliable delivery for all industrial and metallurgical needs.
+          </p>
         </div>
       </section>
     </div>

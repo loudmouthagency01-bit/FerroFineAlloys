@@ -1,147 +1,328 @@
 [
   {
-    "id": "ferro-silicon",
-    "name": "Ferro Silicon",
+    "id": "atomized-metal-powders",
+    "name": "Atomized Metal Powders",
+    "category": "Atomized Metal Powders",
+    "description": "Premium atomized metal powders including iron, stainless steel, and various non-ferrous alloys.",
+    "specs": [
+      {
+        "item": "Atomized Iron powder (98.5%, 99.5%)"
+      },
+      {
+        "item": "Atomized Stainless steel powder (304, 316, 304L, 316L, Duplex, Inconel, Monel)"
+      },
+      {
+        "item": "Atomized ferro silicon powder Grade - (15%, 45%, 65%, 70%)"
+      },
+      {
+        "item": "Atomized Aluminium powder"
+      },
+      {
+        "item": "Atomized Copper powder"
+      },
+      {
+        "item": "Atomized Nickle powder"
+      },
+      {
+        "item": "Atomized Titanium powder"
+      },
+      {
+        "item": "Atomized Trib-alloy powder"
+      },
+      {
+        "item": "Atomized Tungstun powder"
+      },
+      {
+        "item": "Atomized Bre-alloy powder"
+      },
+      {
+        "item": "Atomized Bronze powder"
+      }
+    ]
+  },
+  {
+    "id": "ferro-alloys",
+    "name": "Ferro Alloys",
     "category": "Ferro Alloys",
-    "description": "Used as an essential deoxidizer and alloying element in steel manufacturing.",
+    "description": "Comprehensive range of ferro alloys for steel manufacturing and metallurgical applications.",
     "specs": [
       {
-        "grade": "Ferro Silicon 75-80%",
-        "si": "75 - 80%",
-        "al": "1.0% & 1.5% Max",
-        "c": "0.1% Max",
-        "s": "0.04% Max",
-        "p": "0.04% Max",
-        "size": "10–50mm (Min 90%) or 10–100mm (Min 90%)"
+        "item": "Ferro manganese"
       },
       {
-        "grade": "Ferro Silicon 70-75%",
-        "si": "70 - 75%",
-        "al": "1.0% & 1.5% Max",
-        "c": "0.1% Max",
-        "s": "0.04% Max",
-        "p": "0.04% Max",
-        "size": "10–50mm (Min 90%) or 10–100mm (Min 90%)"
+        "item": "Silico manganese"
+      },
+      {
+        "item": "Ferro Silicon"
+      },
+      {
+        "item": "Ferro Chrome"
+      },
+      {
+        "item": "Ferro Molybdenum"
+      },
+      {
+        "item": "Ferro Vanedumi"
+      },
+      {
+        "item": "Ferro Titanium"
+      },
+      {
+        "item": "Ferro Niobium"
+      },
+      {
+        "item": "Ferro Nickle"
+      },
+      {
+        "item": "Ferro Tungstun"
+      },
+      {
+        "item": "Ferro Boron"
+      },
+      {
+        "item": "Ferro Phosphors"
+      },
+      {
+        "item": "Ferro Sulphur"
       }
     ]
   },
   {
-    "id": "silico-manganese",
-    "name": "Silico Manganese & MC Silico Manganese",
-    "category": "Ferro Alloys",
-    "description": "Manganese is essential to iron and steel production by virtue of its sulfur-fixing, deoxidizing, and alloying properties.",
+    "id": "inoculants-related-materials",
+    "name": "Inoculants & Related Materials",
+    "category": "Inoculants & Related Materials",
+    "description": "High-quality inoculants and related materials with various size availability (0/1 mm, 0.2/0.7 mm, 1/3 mm, 2/6 mm).",
     "specs": [
       {
-        "grade": "HC Silico Manganese 60/14",
-        "mn": "60% Min",
-        "si": "14% Min",
-        "c": "2.5% Max",
-        "p": "0.35% Max",
-        "s": "0.05% Max"
+        "item": "Calcium base"
       },
       {
-        "grade": "HC Silico Manganese 65/15",
-        "mn": "65% Min",
-        "si": "15% Min",
-        "c": "2.25% Max",
-        "p": "0.35% Max",
-        "s": "0.04% Max"
+        "item": "Barrium base"
       },
       {
-        "grade": "Medium Carbon (MC) Silico Manganese",
-        "mn": "60%",
-        "si": "14%",
-        "form": "Solid",
-        "packaging": "Gunny Bags",
-        "usage": "Industrial / Steel Production",
-        "size": "1 To 5 MM"
+        "item": "Culba base"
+      },
+      {
+        "item": "Ferro Silicon based"
+      },
+      {
+        "item": "Alluminium"
+      },
+      {
+        "item": "Cerium"
+      },
+      {
+        "item": "Silico Managnesium"
+      },
+      {
+        "item": "Silico Zirconium"
+      },
+      {
+        "item": "Strontium"
+      },
+      {
+        "item": "Silicon Metal"
+      },
+      {
+        "item": "Calcium Silicon"
       }
     ]
   },
   {
-    "id": "ferro-manganese",
-    "name": "Ferro Manganese",
-    "category": "Ferro Alloys",
+    "id": "carbons",
+    "name": "Carbons",
+    "category": "Carbons",
+    "description": "Essential carbon products for metallurgical processes.",
     "specs": [
       {
-        "grade": "High Carbon (HC)",
-        "mn": "65 – 70 – 75% Min",
-        "si": "1.50% Max",
-        "c": "6.0 – 8.0% Max",
-        "p": "0.30% Max",
-        "s": "0.05% Max",
-        "size": "25 – 125 mm"
+        "item": "CPC"
       },
       {
-        "grade": "Medium Carbon (MC)",
-        "mn": "75 – 80%",
-        "si": "1.0 – 1.5% Max",
-        "c": "1.5 – 2.0% Max",
-        "p": "0.40% Max",
-        "s": "0.05% Max"
+        "item": "CAC"
       },
       {
-        "grade": "Low Carbon (LC)",
-        "mn": "75 – 80%",
-        "si": "1.0 – 1.5% Max",
-        "c": "0.5% Max",
-        "p": "0.40% Max",
-        "s": "0.05% Max"
+        "item": "Graphite (scrap / powder / chips / lumps)"
+      },
+      {
+        "item": "Anthracite Coal Carbon"
       }
     ]
   },
   {
-    "id": "ferro-chrome",
-    "name": "Ferro Chrome",
-    "category": "Ferro Alloys",
+    "id": "scraps",
+    "name": "Scraps",
+    "category": "Scraps",
+    "description": "Various grades of metal scraps for recycling and industrial use.",
     "specs": [
       {
-        "grade": "High Carbon Ferro Chrome",
-        "cr": "60% Min",
-        "c": "8% Max",
-        "si": "3.0% Max",
-        "s": "0.04% Max",
-        "p": "0.04% Max",
-        "cu": "0.5% Max",
-        "size": "10 – 150 mm"
+        "item": "Stainless Steel (304, 316)"
       },
       {
-        "grade": "Low Carbon Ferro Chrome",
-        "cr": "65% Min",
-        "c": "0.03%, 0.05%, 0.1% Max",
-        "si": "1.0% Max",
-        "s": "0.03% Max",
-        "p": "0.04% Max",
-        "size": "10 – 50 mm"
+        "item": "Copper scrap"
+      },
+      {
+        "item": "Brass scrap"
+      },
+      {
+        "item": "Gun metal scrap"
+      },
+      {
+        "item": "Alluminium scrap"
+      },
+      {
+        "item": "Iron scrap (CRC, HRC, CRNO, Silicon steel, MS)"
+      },
+      {
+        "item": "Titanium scrap"
+      },
+      {
+        "item": "Zorba (Automotive)"
+      },
+      {
+        "item": "Twitch"
+      },
+      {
+        "item": "Magnesium Clean 100% (10/10 Scrap)"
       }
     ]
   },
   {
-    "id": "carbon-raiser",
-    "name": "Carbon Raiser 93%",
-    "category": "Carbon Products",
-    "description": "Qualitative range of Carburetors procured from reputed manufacturers in China.",
+    "id": "ingots",
+    "name": "Ingots (Cubes, Slabs)",
+    "category": "Ingots",
+    "description": "Primary and secondary metal ingots in cubes and slabs.",
     "specs": [
       {
-        "grade": "Carbon Raiser 93%",
-        "c": "93% Specification Minimum",
-        "sourcing": "Top tier global manufacturers in China"
+        "item": "All type of secondary alluminium"
+      },
+      {
+        "item": "All type primary alluminium"
+      },
+      {
+        "item": "Complex prealloyed alluminium"
+      },
+      {
+        "item": "Magnesium alluminium"
+      },
+      {
+        "item": "Strontium alluminium"
+      },
+      {
+        "item": "Manganese alluminium"
+      },
+      {
+        "item": "Titanium alluminium"
+      },
+      {
+        "item": "Magnesium Ingot"
+      },
+      {
+        "item": "Tin Ingot"
+      },
+      {
+        "item": "Lead Ingot"
+      },
+      {
+        "item": "Brine Ingot"
       }
     ]
   },
   {
-    "id": "graphite-petroleum-coke",
-    "name": "Graphite Petroleum Coke",
-    "category": "Carbon Products",
+    "id": "milled-metal-powders",
+    "name": "Milled Metal Powders",
+    "category": "Milled Metal Powders",
+    "description": "Finely milled metal powders for specialized applications.",
     "specs": [
       {
-        "grade": "Standard Industrial Grade",
-        "c": "98.5% Guaranteed",
-        "s": "0.05% Max",
-        "form": "Granules",
-        "packaging": "Bags",
-        "size": "0.2 – 1 mm, 1 – 5 mm",
-        "moq": "500 Kilograms"
+        "item": "Fero Manganese LC, HC, MC"
+      },
+      {
+        "item": "Fero Silicon 15%, 45%, 50%, 70%"
+      },
+      {
+        "item": "Fero Chrome LC/HC"
+      },
+      {
+        "item": "Fero Molybdenum"
+      },
+      {
+        "item": "Fero Boron"
+      },
+      {
+        "item": "Fero zirconium"
+      },
+      {
+        "item": "Silico Manganese"
+      },
+      {
+        "item": "Fero Niobium"
+      },
+      {
+        "item": "Fero Titanium - 15%, 30%, 35%, 70%"
+      },
+      {
+        "item": "Fero Silico Zirconium"
+      },
+      {
+        "item": "Nickel Powder"
+      },
+      {
+        "item": "Chromium Metal Powder"
+      },
+      {
+        "item": "Manganese Metal Powder"
+      }
+    ]
+  },
+  {
+    "id": "minerals",
+    "name": "Minerals (Lumps / Powders)",
+    "category": "Minerals",
+    "description": "Industrial minerals available in both lump and powder forms.",
+    "specs": [
+      {
+        "item": "Ilmenite"
+      },
+      {
+        "item": "Silmenite"
+      },
+      {
+        "item": "Rutile"
+      },
+      {
+        "item": "Fluorspar"
+      },
+      {
+        "item": "Lime"
+      },
+      {
+        "item": "Iron Oxide"
+      },
+      {
+        "item": "Calcium Bauxite"
+      }
+    ]
+  },
+  {
+    "id": "dross-ash-residue",
+    "name": "Dross / Ash / Residue Metals",
+    "category": "Dross / Ash / Residue Metals",
+    "description": "Industrial metal residues, dross, and ash for reclamation and processing.",
+    "specs": [
+      {
+        "item": "Aluminium dross (white / grey)"
+      },
+      {
+        "item": "Zinc Dross (Primary / Alloyed)"
+      },
+      {
+        "item": "Copper Dross (Black)"
+      },
+      {
+        "item": "Millscale"
+      },
+      {
+        "item": "Lead Dross"
       }
     ]
   }

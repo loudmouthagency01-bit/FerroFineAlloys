@@ -20,25 +20,21 @@ export default function Navigation() {
         <div className="flex items-center justify-between w-full">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 md:gap-4 group z-50" onClick={() => setIsMobileMenuOpen(false)}>
-            <div className="relative w-10 h-10 md:w-12 md:h-12 flex items-center justify-center drop-shadow-md">
-              <Image src="/Logo_final.png" alt="Shri Narsingh Micro Alloys Logo" width={48} height={48} className="object-contain" />
-            </div>
             <div className="flex flex-col">
-              <span className="font-bold text-xs md:text-sm tracking-wider uppercase leading-none mb-1 text-[var(--color-primary)]">Shri Narsingh</span>
-              <span className="text-[9px] md:text-[10px] text-[var(--color-secondary)] uppercase tracking-widest font-mono">Micro Alloys</span>
+              <span className="font-heading font-black text-lg md:text-xl tracking-wider uppercase leading-none mb-1 text-white">Ferro Fine Alloy</span>
             </div>
           </Link>
 
           {/* Desktop Links */}
           <div className="hidden lg:flex items-center gap-8 text-sm font-medium tracking-wide">
-            <Link href="/products" className="hover:text-[var(--color-secondary)] transition-colors flex items-center gap-2">
-              <Info className="w-4 h-4 text-[var(--color-secondary)]" /> {t("nav.catalog")}
+            <Link href="/products" className="hover:text-blue-300 transition-colors flex items-center gap-2">
+              <Info className="w-4 h-4 text-blue-300" /> {t("nav.catalog")}
             </Link>
-            <Link href="/rfq" className="hover:text-[var(--color-secondary)] transition-colors flex items-center gap-2">
-              <ShoppingCart className="w-4 h-4 text-[var(--color-secondary)]" /> {t("nav.rfq_basket")}
+            <Link href="/rfq" className="hover:text-blue-300 transition-colors flex items-center gap-2">
+              <ShoppingCart className="w-4 h-4 text-blue-300" /> {t("nav.rfq_basket")}
             </Link>
-            <Link href="/contact" className="hover:text-[var(--color-secondary)] transition-colors flex items-center gap-2">
-              <PhoneCall className="w-4 h-4 text-[var(--color-secondary)]" /> {t("nav.contact")}
+            <Link href="/contact" className="hover:text-blue-300 transition-colors flex items-center gap-2">
+              <PhoneCall className="w-4 h-4 text-blue-300" /> {t("nav.contact")}
             </Link>
           </div>
 
@@ -47,37 +43,31 @@ export default function Navigation() {
             {/* Theme Toggle */}
             <button 
               onClick={toggleTheme}
-              className="flex items-center justify-center w-8 h-8 md:w-10 md:h-10 bg-white/10 dark:bg-[#0a182b] border border-slate-300 dark:border-slate-700 text-slate-600 dark:text-gray-400 hover:text-[var(--color-primary)] dark:hover:text-white transition-all rounded"
+              className="flex items-center justify-center w-8 h-8 md:w-10 md:h-10 bg-white/10 border border-white/20 text-white/80 hover:text-white transition-all rounded"
               aria-label="Toggle Theme"
             >
               {theme === "light" ? <Moon className="w-4 h-4" /> : <Sun className="w-4 h-4 text-yellow-400" />}
             </button>
 
             {/* Language Toggle (Hidden on very small screens, moved to menu) */}
-            <div className="hidden sm:flex items-center gap-1 bg-white/10 dark:bg-[#0a182b] p-1 border border-slate-300 dark:border-slate-700 font-mono text-xs font-semibold rounded">
+            <div className="hidden sm:flex items-center gap-1 bg-white/10 p-1 border border-white/20 font-mono text-xs font-semibold rounded">
               <button
                 onClick={() => setLanguage("en")}
-                className={`px-2 md:px-3 py-1.5 md:py-2 transition-all rounded ${language === "en" ? "bg-[var(--color-secondary)] text-white shadow-sm border border-blue-400/50" : "text-slate-600 dark:text-gray-400 hover:text-[var(--color-primary)] dark:hover:text-white"}`}
+                className={`px-2 md:px-3 py-1.5 md:py-2 transition-all rounded ${language === "en" ? "bg-[var(--color-secondary)] text-white shadow-sm border border-blue-400/50" : "text-white/70 hover:text-white"}`}
               >
                 EN
               </button>
               <button
                 onClick={() => setLanguage("hi")}
-                className={`px-2 md:px-3 py-1.5 md:py-2 transition-all rounded ${language === "hi" ? "bg-[var(--color-secondary)] text-white shadow-sm border border-blue-400/50" : "text-slate-600 dark:text-gray-400 hover:text-[var(--color-primary)] dark:hover:text-white"}`}
+                className={`px-2 md:px-3 py-1.5 md:py-2 transition-all rounded ${language === "hi" ? "bg-[var(--color-secondary)] text-white shadow-sm border border-blue-400/50" : "text-white/70 hover:text-white"}`}
               >
                 HI
-              </button>
-              <button
-                onClick={() => setLanguage("gu")}
-                className={`px-2 md:px-3 py-1.5 md:py-2 transition-all rounded ${language === "gu" ? "bg-[var(--color-secondary)] text-white shadow-sm border border-blue-400/50" : "text-slate-600 dark:text-gray-400 hover:text-[var(--color-primary)] dark:hover:text-white"}`}
-              >
-                GU
               </button>
             </div>
 
             {/* Mobile Menu Toggle */}
             <button 
-              className="lg:hidden flex items-center justify-center w-10 h-10 bg-white/10 dark:bg-[#0a182b] border border-slate-300 dark:border-slate-700 text-[var(--color-primary)] dark:text-white rounded"
+              className="lg:hidden flex items-center justify-center w-10 h-10 bg-white/10 border border-white/20 text-white rounded"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
               {isMobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
@@ -91,38 +81,32 @@ export default function Navigation() {
             isMobileMenuOpen ? "max-h-96 opacity-100 pt-6 pb-2" : "max-h-0 opacity-0"
           }`}
         >
-          <div className="flex flex-col gap-4 border-t border-slate-300 dark:border-slate-700 pt-4">
-            <Link href="/products" onClick={() => setIsMobileMenuOpen(false)} className="text-[var(--color-primary)] dark:text-white hover:text-[var(--color-secondary)] font-medium flex items-center gap-3">
-              <Info className="w-5 h-5 text-[var(--color-secondary)]" /> {t("nav.catalog")}
+          <div className="flex flex-col gap-4 border-t border-white/20 pt-4">
+            <Link href="/products" onClick={() => setIsMobileMenuOpen(false)} className="text-white hover:text-blue-300 font-medium flex items-center gap-3">
+              <Info className="w-5 h-5 text-blue-300" /> {t("nav.catalog")}
             </Link>
-            <Link href="/rfq" onClick={() => setIsMobileMenuOpen(false)} className="text-[var(--color-primary)] dark:text-white hover:text-[var(--color-secondary)] font-medium flex items-center gap-3">
-              <ShoppingCart className="w-5 h-5 text-[var(--color-secondary)]" /> {t("nav.rfq_basket")}
+            <Link href="/rfq" onClick={() => setIsMobileMenuOpen(false)} className="text-white hover:text-blue-300 font-medium flex items-center gap-3">
+              <ShoppingCart className="w-5 h-5 text-blue-300" /> {t("nav.rfq_basket")}
             </Link>
-            <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)} className="text-[var(--color-primary)] dark:text-white hover:text-[var(--color-secondary)] font-medium flex items-center gap-3">
-              <PhoneCall className="w-5 h-5 text-[var(--color-secondary)]" /> {t("nav.contact")}
+            <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)} className="text-white hover:text-blue-300 font-medium flex items-center gap-3">
+              <PhoneCall className="w-5 h-5 text-blue-300" /> {t("nav.contact")}
             </Link>
 
             {/* Mobile Language Toggle */}
-            <div className="sm:hidden flex items-center justify-between bg-white/5 dark:bg-[#0a182b]/50 p-2 border border-slate-300 dark:border-slate-700 font-mono text-xs font-semibold rounded mt-2">
-              <span className="text-[var(--color-primary)] dark:text-slate-400 pl-2">Language</span>
+            <div className="sm:hidden flex items-center justify-between bg-white/5 p-2 border border-white/20 font-mono text-xs font-semibold rounded mt-2">
+              <span className="text-white/70 pl-2">Language</span>
               <div className="flex gap-1">
                 <button
                   onClick={() => setLanguage("en")}
-                  className={`px-3 py-2 transition-all rounded ${language === "en" ? "bg-[var(--color-secondary)] text-white shadow-sm" : "text-slate-600 dark:text-gray-400"}`}
+                  className={`px-3 py-2 transition-all rounded ${language === "en" ? "bg-[var(--color-secondary)] text-white shadow-sm" : "text-white/70"}`}
                 >
                   EN
                 </button>
                 <button
                   onClick={() => setLanguage("hi")}
-                  className={`px-3 py-2 transition-all rounded ${language === "hi" ? "bg-[var(--color-secondary)] text-white shadow-sm" : "text-slate-600 dark:text-gray-400"}`}
+                  className={`px-3 py-2 transition-all rounded ${language === "hi" ? "bg-[var(--color-secondary)] text-white shadow-sm" : "text-white/70"}`}
                 >
                   HI
-                </button>
-                <button
-                  onClick={() => setLanguage("gu")}
-                  className={`px-3 py-2 transition-all rounded ${language === "gu" ? "bg-[var(--color-secondary)] text-white shadow-sm" : "text-slate-600 dark:text-gray-400"}`}
-                >
-                  GU
                 </button>
               </div>
             </div>

@@ -1,11 +1,9 @@
 {
-  "name": "SHRI NARSINGH MICRO ALLOYS PRIVATE LIMITED",
-  "cin": "U28999GJ2021PTC121521",
-  "incorporationDate": "24 March 2021",
-  "keyExecutive": "Anil Gupta (Director)",
-  "overview": "Shri Narsingh Micro Alloys was incorporated on 24 March 2021 as a private limited company under the leadership of Anil Gupta... The state of the art architecture of the company is located at Hathijan Circle, Ahmedabad loaded with all the required facilities to excel in the market.",
-  "mission": "To supply products of the unrivaled quality and be a partner in progress of respected clientele.",
-  "vision": "To become a chief non ferrous trading company that provides customer satisfaction through value for money.",
+  "name": "Ferro Fine Alloy",
+  "established": "2008",
+  "overview": "Ferro Fine Alloy, established in 2008, is a pioneer in Powder Metallurgy and all types of metals. We supply to the USA, Europe, Middle East, and Asia, including Pan India.",
+  "mission": "To supply products of unrivaled quality and be a partner in progress of respected clientele.",
+  "vision": "To become a chief non-ferrous trading company that provides customer satisfaction through value for money.",
   "features": [
     "World-Class Quality",
     "Timely Delivery",
@@ -16,17 +14,17 @@
   ],
   "headquarters": {
     "region": "India",
-    "factoryAddress": "Shed No. 84, Akshar Industrial Park, Near Hathijan Circle, Vinzol Patiya Phase-4, GIDC, Vatva, Ahmedabad - 382445, Gujarat, India.",
-    "registeredAddress": "SHED-84, 583, 32, 91, Axar Ind. Estate, Behind Amba Estate, Vinzol Patiya, Vatva, GIDC, Ahmedabad, Gujarat, India, 382445.",
-    "phone": "+91 85116 01010",
-    "landline": "+91 79 2999 9878",
-    "email": "info@shrinarsinghmicro.com",
-    "domain": "www.shrinarsinghmicro.com"
+    "factoryAddress": "[Placeholder Factory Address]",
+    "registeredAddress": "[Placeholder Registered Address]",
+    "phone": "[Placeholder Phone Number]",
+    "landline": "[Placeholder Landline Number]",
+    "email": "info@ferrofinealloys.com",
+    "domain": "www.ferrofinealloys.com"
   },
   "internationalHub": {
-    "region": "North America",
-    "location": "Regina, Saskatchewan (SK), Canada",
-    "phone": "+1 (306) 807-4929",
-    "timezone": "Central Standard Time (CST), North America"
+    "region": "International",
+    "location": "[Placeholder International Location]",
+    "phone": "[Placeholder Phone Number]",
+    "timezone": "[Placeholder Timezone]"
   }
 }

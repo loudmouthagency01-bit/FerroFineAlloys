@@ -7,25 +7,25 @@
   },
   "home": {
     "unrivaled_quality": "Unrivaled Quality in",
-    "metals": "Ferrous & Non-Ferrous Metals",
+    "metals": "Powder Metallurgy & Metals",
     "explore_catalog": "Explore Catalog",
     "global_logistics": "Global Logistics",
     "corporate_overview": "Corporate Overview",
     "core_pillars": "Core Pillars & Infrastructure",
     "world_class_quality": "World-Class Quality",
-    "quality_desc": "Committed to providing a broad array of ferrous metals strongly in compliance with regulatory standards, ensured by stringent quality testing procedures.",
-    "professional_team": "Professional Team",
-    "team_desc": "Our professionals possess excellent knowledge associated with business procedures, helping us market our products in a more organized and proficient manner.",
-    "spacious_warehouse": "Spacious Warehouse",
-    "warehouse_desc": "Equally focused towards service to ensure prompt delivery, developing safe and damage-free storage for enormous quantities.",
+    "quality_desc": "Committed to providing a broad array of metals strictly in compliance with regulatory standards, ensured by stringent quality testing procedures.",
+    "professional_team": "Pioneers in Powder Metallurgy",
+    "team_desc": "Established in 2008, Ferro Fine Alloy is a pioneer in Powder Metallurgy and all types of metals, supplying to global markets with unmatched expertise.",
+    "spacious_warehouse": "Global Reach",
+    "warehouse_desc": "Supplying to the USA, Europe, Middle East, and Asia, including Pan India, ensuring prompt delivery and reliable service.",
     "premium_materials": "Premium Materials",
     "product_portfolio": "Product Portfolio",
-    "hover_explore": "Hover to explore our extensive range of industrial metals and carbon products.",
+    "hover_explore": "Hover to explore our extensive range of industrial metals, powders, and carbon products.",
     "trusted_worldwide": "Trusted Worldwide",
     "global_partners": "Global Industrial Partners",
-    "company_mission": "To supply products of the unrivaled quality and be a partner in progress of respected clientele.",
-    "company_vision": "To become a chief non ferrous trading company that provides customer satisfaction through value for money.",
-    "company_overview": "Shri Narsingh Micro Alloys was incorporated on 24 March 2021 as a private limited company under the leadership of Anil Gupta... The state of the art architecture of the company is located at Hathijan Circle, Ahmedabad loaded with all the required facilities to excel in the market.",
+    "company_mission": "To supply products of unrivaled quality and be a partner in progress of respected clientele.",
+    "company_vision": "To become a chief non-ferrous trading company that provides customer satisfaction through value for money.",
+    "company_overview": "Ferro Fine Alloy, established in 2008, is a pioneer in Powder Metallurgy and all types of metals. We supply to the USA, Europe, Middle East, and Asia, including Pan India.",
     "company_features": [
       "World-Class Quality",
       "Timely Delivery",
@@ -33,13 +33,14 @@
       "Affordable Prices",
       "Wide Distribution Network",
       "Reliable & Trusted Services"
-    ]
+    ],
+    "company_profile_summary": "Company Profile"
   },
   "contact": {
     "title": "Global Logistics & Contacts",
-    "subtitle": "Connect with our central headquarters in Ahmedabad, India or our North American logistics point in Regina, Canada.",
+    "subtitle": "Connect with our central headquarters in India or our International logistics point.",
     "asia_hq": "Asia Operations & Headquarters",
-    "north_america": "North America Distribution",
+    "north_america": "International Hub",
     "factory_address": "Factory Address",
     "registered_address": "Registered Office",
     "email": "Email Inquiries",
@@ -69,12 +70,12 @@
   },
   "products": {
     "title": "Industrial Materials Catalog",
-    "subtitle": "Explore our comprehensive range of high-grade ferro alloys and carbon products, sourced and processed for maximum metallurgical efficiency.",
+    "subtitle": "Explore our comprehensive range of atomized metal powders, ferro alloys, and metallurgical products.",
     "specifications": "Specifications"
   },
   "footer": {
-    "cin": "CIN:",
-    "incorporated": "Incorporated:",
+    "cin": "",
+    "incorporated": "Established:",
     "all_rights": "All rights reserved."
   }
 }

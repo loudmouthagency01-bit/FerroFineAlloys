@@ -3,9 +3,8 @@
 import React, { createContext, useContext, useState, ReactNode } from "react";
 import en from "@/i18n/en.json";
 import hi from "@/i18n/hi.json";
-import gu from "@/i18n/gu.json";
 
-type Language = "en" | "hi" | "gu";
+type Language = "en" | "hi";
 
 interface LanguageContextType {
   language: Language;
@@ -16,7 +15,6 @@ interface LanguageContextType {
 const dictionaries: Record<Language, any> = {
   en,
   hi,
-  gu,
 };
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
