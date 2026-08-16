@@ -23,7 +23,7 @@ import { LanguageProvider } from "@/context/LanguageContext";
 import { ThemeProvider } from "@/context/ThemeContext";
 
 export const metadata: Metadata = {
-  title: "Ferro Fine Alloy - Pioneers in Powder Metallurgy",
+  title: "Ferro Fine Alloys - Pioneers in Powder Metallurgy",
   description: "High-quality atomized metal powders, ferro alloys, inoculants, and industrial carbon products.",
 };
 

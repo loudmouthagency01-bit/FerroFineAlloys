@@ -6,37 +6,48 @@
     "description": "Premium atomized metal powders including iron, stainless steel, and various non-ferrous alloys.",
     "specs": [
       {
-        "item": "Atomized Iron powder (98.5%, 99.5%)"
+        "item": "Atomized Iron powder (98.5%, 99.5%)",
+        "id": "atomized-iron-powder-98-5-99-5"
       },
       {
-        "item": "Atomized Stainless steel powder (304, 316, 304L, 316L, Duplex, Inconel, Monel)"
+        "item": "Atomized Stainless steel powder (304, 316, 304L, 316L, Duplex, Inconel, Monel)",
+        "id": "atomized-stainless-steel-powder-304-316-304l-316l-duplex-inconel-monel"
       },
       {
-        "item": "Atomized ferro silicon powder Grade - (15%, 45%, 65%, 70%)"
+        "item": "Atomized ferro silicon powder Grade - (15%, 45%, 65%, 70%)",
+        "id": "atomized-ferro-silicon-powder-grade-15-45-65-70"
       },
       {
-        "item": "Atomized Aluminium powder"
+        "item": "Atomized Aluminium powder",
+        "id": "atomized-aluminium-powder"
       },
       {
-        "item": "Atomized Copper powder"
+        "item": "Atomized Copper powder",
+        "id": "atomized-copper-powder"
       },
       {
-        "item": "Atomized Nickle powder"
+        "item": "Atomized Nickle powder",
+        "id": "atomized-nickle-powder"
       },
       {
-        "item": "Atomized Titanium powder"
+        "item": "Atomized Titanium powder",
+        "id": "atomized-titanium-powder"
       },
       {
-        "item": "Atomized Trib-alloy powder"
+        "item": "Atomized Trib-alloy powder",
+        "id": "atomized-trib-alloy-powder"
       },
       {
-        "item": "Atomized Tungstun powder"
+        "item": "Atomized Tungstun powder",
+        "id": "atomized-tungstun-powder"
       },
       {
-        "item": "Atomized Bre-alloy powder"
+        "item": "Atomized Bre-alloy powder",
+        "id": "atomized-bre-alloy-powder"
       },
       {
-        "item": "Atomized Bronze powder"
+        "item": "Atomized Bronze powder",
+        "id": "atomized-bronze-powder"
       }
     ]
   },
@@ -47,43 +58,56 @@
     "description": "Comprehensive range of ferro alloys for steel manufacturing and metallurgical applications.",
     "specs": [
       {
-        "item": "Ferro manganese"
+        "item": "Ferro manganese",
+        "id": "ferro-manganese"
       },
       {
-        "item": "Silico manganese"
+        "item": "Silico manganese",
+        "id": "silico-manganese"
       },
       {
-        "item": "Ferro Silicon"
+        "item": "Ferro Silicon",
+        "id": "ferro-silicon"
       },
       {
-        "item": "Ferro Chrome"
+        "item": "Ferro Chrome",
+        "id": "ferro-chrome"
       },
       {
-        "item": "Ferro Molybdenum"
+        "item": "Ferro Molybdenum",
+        "id": "ferro-molybdenum"
       },
       {
-        "item": "Ferro Vanedumi"
+        "item": "Ferro Vanedumi",
+        "id": "ferro-vanedumi"
       },
       {
-        "item": "Ferro Titanium"
+        "item": "Ferro Titanium",
+        "id": "ferro-titanium"
       },
       {
-        "item": "Ferro Niobium"
+        "item": "Ferro Niobium",
+        "id": "ferro-niobium"
       },
       {
-        "item": "Ferro Nickle"
+        "item": "Ferro Nickle",
+        "id": "ferro-nickle"
       },
       {
-        "item": "Ferro Tungstun"
+        "item": "Ferro Tungstun",
+        "id": "ferro-tungstun"
       },
       {
-        "item": "Ferro Boron"
+        "item": "Ferro Boron",
+        "id": "ferro-boron"
       },
       {
-        "item": "Ferro Phosphors"
+        "item": "Ferro Phosphors",
+        "id": "ferro-phosphors"
       },
       {
-        "item": "Ferro Sulphur"
+        "item": "Ferro Sulphur",
+        "id": "ferro-sulphur"
       }
     ]
   },
@@ -94,37 +118,48 @@
     "description": "High-quality inoculants and related materials with various size availability (0/1 mm, 0.2/0.7 mm, 1/3 mm, 2/6 mm).",
     "specs": [
       {
-        "item": "Calcium base"
+        "item": "Calcium base",
+        "id": "calcium-base"
       },
       {
-        "item": "Barrium base"
+        "item": "Barrium base",
+        "id": "barrium-base"
       },
       {
-        "item": "Culba base"
+        "item": "Culba base",
+        "id": "culba-base"
       },
       {
-        "item": "Ferro Silicon based"
+        "item": "Ferro Silicon based",
+        "id": "ferro-silicon-based"
       },
       {
-        "item": "Alluminium"
+        "item": "Alluminium",
+        "id": "alluminium"
       },
       {
-        "item": "Cerium"
+        "item": "Cerium",
+        "id": "cerium"
       },
       {
-        "item": "Silico Managnesium"
+        "item": "Silico Managnesium",
+        "id": "silico-managnesium"
       },
       {
-        "item": "Silico Zirconium"
+        "item": "Silico Zirconium",
+        "id": "silico-zirconium"
       },
       {
-        "item": "Strontium"
+        "item": "Strontium",
+        "id": "strontium"
       },
       {
-        "item": "Silicon Metal"
+        "item": "Silicon Metal",
+        "id": "silicon-metal"
       },
       {
-        "item": "Calcium Silicon"
+        "item": "Calcium Silicon",
+        "id": "calcium-silicon"
       }
     ]
   },
@@ -135,16 +170,20 @@
     "description": "Essential carbon products for metallurgical processes.",
     "specs": [
       {
-        "item": "CPC"
+        "item": "CPC",
+        "id": "cpc"
       },
       {
-        "item": "CAC"
+        "item": "CAC",
+        "id": "cac"
       },
       {
-        "item": "Graphite (scrap / powder / chips / lumps)"
+        "item": "Graphite (scrap / powder / chips / lumps)",
+        "id": "graphite-scrap-powder-chips-lumps"
       },
       {
-        "item": "Anthracite Coal Carbon"
+        "item": "Anthracite Coal Carbon",
+        "id": "anthracite-coal-carbon"
       }
     ]
   },
@@ -155,34 +194,44 @@
     "description": "Various grades of metal scraps for recycling and industrial use.",
     "specs": [
       {
-        "item": "Stainless Steel (304, 316)"
+        "item": "Stainless Steel (304, 316)",
+        "id": "stainless-steel-304-316"
       },
       {
-        "item": "Copper scrap"
+        "item": "Copper scrap",
+        "id": "copper-scrap"
       },
       {
-        "item": "Brass scrap"
+        "item": "Brass scrap",
+        "id": "brass-scrap"
       },
       {
-        "item": "Gun metal scrap"
+        "item": "Gun metal scrap",
+        "id": "gun-metal-scrap"
       },
       {
-        "item": "Alluminium scrap"
+        "item": "Alluminium scrap",
+        "id": "alluminium-scrap"
       },
       {
-        "item": "Iron scrap (CRC, HRC, CRNO, Silicon steel, MS)"
+        "item": "Iron scrap (CRC, HRC, CRNO, Silicon steel, MS)",
+        "id": "iron-scrap-crc-hrc-crno-silicon-steel-ms"
       },
       {
-        "item": "Titanium scrap"
+        "item": "Titanium scrap",
+        "id": "titanium-scrap"
       },
       {
-        "item": "Zorba (Automotive)"
+        "item": "Zorba (Automotive)",
+        "id": "zorba-automotive"
       },
       {
-        "item": "Twitch"
+        "item": "Twitch",
+        "id": "twitch"
       },
       {
-        "item": "Magnesium Clean 100% (10/10 Scrap)"
+        "item": "Magnesium Clean 100% (10/10 Scrap)",
+        "id": "magnesium-clean-100-10-10-scrap"
       }
     ]
   },
@@ -193,37 +242,48 @@
     "description": "Primary and secondary metal ingots in cubes and slabs.",
     "specs": [
       {
-        "item": "All type of secondary alluminium"
+        "item": "All type of secondary alluminium",
+        "id": "all-type-of-secondary-alluminium"
       },
       {
-        "item": "All type primary alluminium"
+        "item": "All type primary alluminium",
+        "id": "all-type-primary-alluminium"
       },
       {
-        "item": "Complex prealloyed alluminium"
+        "item": "Complex prealloyed alluminium",
+        "id": "complex-prealloyed-alluminium"
       },
       {
-        "item": "Magnesium alluminium"
+        "item": "Magnesium alluminium",
+        "id": "magnesium-alluminium"
       },
       {
-        "item": "Strontium alluminium"
+        "item": "Strontium alluminium",
+        "id": "strontium-alluminium"
       },
       {
-        "item": "Manganese alluminium"
+        "item": "Manganese alluminium",
+        "id": "manganese-alluminium"
       },
       {
-        "item": "Titanium alluminium"
+        "item": "Titanium alluminium",
+        "id": "titanium-alluminium"
       },
       {
-        "item": "Magnesium Ingot"
+        "item": "Magnesium Ingot",
+        "id": "magnesium-ingot"
       },
       {
-        "item": "Tin Ingot"
+        "item": "Tin Ingot",
+        "id": "tin-ingot"
       },
       {
-        "item": "Lead Ingot"
+        "item": "Lead Ingot",
+        "id": "lead-ingot"
       },
       {
-        "item": "Brine Ingot"
+        "item": "Brine Ingot",
+        "id": "brine-ingot"
       }
     ]
   },
@@ -234,43 +294,56 @@
     "description": "Finely milled metal powders for specialized applications.",
     "specs": [
       {
-        "item": "Fero Manganese LC, HC, MC"
+        "item": "Fero Manganese LC, HC, MC",
+        "id": "fero-manganese-lc-hc-mc"
       },
       {
-        "item": "Fero Silicon 15%, 45%, 50%, 70%"
+        "item": "Fero Silicon 15%, 45%, 50%, 70%",
+        "id": "fero-silicon-15-45-50-70"
       },
       {
-        "item": "Fero Chrome LC/HC"
+        "item": "Fero Chrome LC/HC",
+        "id": "fero-chrome-lc-hc"
       },
       {
-        "item": "Fero Molybdenum"
+        "item": "Fero Molybdenum",
+        "id": "fero-molybdenum"
       },
       {
-        "item": "Fero Boron"
+        "item": "Fero Boron",
+        "id": "fero-boron"
       },
       {
-        "item": "Fero zirconium"
+        "item": "Fero zirconium",
+        "id": "fero-zirconium"
       },
       {
-        "item": "Silico Manganese"
+        "item": "Silico Manganese",
+        "id": "silico-manganese"
       },
       {
-        "item": "Fero Niobium"
+        "item": "Fero Niobium",
+        "id": "fero-niobium"
       },
       {
-        "item": "Fero Titanium - 15%, 30%, 35%, 70%"
+        "item": "Fero Titanium - 15%, 30%, 35%, 70%",
+        "id": "fero-titanium-15-30-35-70"
       },
       {
-        "item": "Fero Silico Zirconium"
+        "item": "Fero Silico Zirconium",
+        "id": "fero-silico-zirconium"
       },
       {
-        "item": "Nickel Powder"
+        "item": "Nickel Powder",
+        "id": "nickel-powder"
       },
       {
-        "item": "Chromium Metal Powder"
+        "item": "Chromium Metal Powder",
+        "id": "chromium-metal-powder"
       },
       {
-        "item": "Manganese Metal Powder"
+        "item": "Manganese Metal Powder",
+        "id": "manganese-metal-powder"
       }
     ]
   },
@@ -281,25 +354,32 @@
     "description": "Industrial minerals available in both lump and powder forms.",
     "specs": [
       {
-        "item": "Ilmenite"
+        "item": "Ilmenite",
+        "id": "ilmenite"
       },
       {
-        "item": "Silmenite"
+        "item": "Silmenite",
+        "id": "silmenite"
       },
       {
-        "item": "Rutile"
+        "item": "Rutile",
+        "id": "rutile"
       },
       {
-        "item": "Fluorspar"
+        "item": "Fluorspar",
+        "id": "fluorspar"
       },
       {
-        "item": "Lime"
+        "item": "Lime",
+        "id": "lime"
       },
       {
-        "item": "Iron Oxide"
+        "item": "Iron Oxide",
+        "id": "iron-oxide"
       },
       {
-        "item": "Calcium Bauxite"
+        "item": "Calcium Bauxite",
+        "id": "calcium-bauxite"
       }
     ]
   },
@@ -310,19 +390,24 @@
     "description": "Industrial metal residues, dross, and ash for reclamation and processing.",
     "specs": [
       {
-        "item": "Aluminium dross (white / grey)"
+        "item": "Aluminium dross (white / grey)",
+        "id": "aluminium-dross-white-grey"
       },
       {
-        "item": "Zinc Dross (Primary / Alloyed)"
+        "item": "Zinc Dross (Primary / Alloyed)",
+        "id": "zinc-dross-primary-alloyed"
       },
       {
-        "item": "Copper Dross (Black)"
+        "item": "Copper Dross (Black)",
+        "id": "copper-dross-black"
       },
       {
-        "item": "Millscale"
+        "item": "Millscale",
+        "id": "millscale"
       },
       {
-        "item": "Lead Dross"
+        "item": "Lead Dross",
+        "id": "lead-dross"
       }
     ]
   }

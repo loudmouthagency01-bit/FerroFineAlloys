@@ -19,9 +19,10 @@ export default function Navigation() {
         {/* Top Bar */}
         <div className="flex items-center justify-between w-full">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 md:gap-4 group z-50" onClick={() => setIsMobileMenuOpen(false)}>
-            <div className="flex flex-col">
-              <span className="font-heading font-black text-lg md:text-xl tracking-wider uppercase leading-none mb-1 text-white">Ferro Fine Alloy</span>
+          <Link href="/" className="flex items-center group z-50" onClick={() => setIsMobileMenuOpen(false)}>
+            <div className="flex items-center gap-3">
+              <Image src="/logo.png" alt="Ferro Fine Alloys Logo" width={48} height={48} className="w-auto h-8 sm:h-10 object-contain brightness-0 invert" />
+              <Image src="/CompNameWithoutLogo.png" alt="Ferro Fine Alloys Text" width={160} height={48} className="hidden md:block w-auto h-5 sm:h-6 lg:h-8 object-contain brightness-0 invert" />
             </div>
           </Link>
 

@@ -1,7 +1,10 @@
 {
-  "name": "Ferro Fine Alloy",
+  "name": "Ferro Fine Alloys",
   "established": "2008",
-  "overview": "Ferro Fine Alloy, established in 2008, is a pioneer in Powder Metallurgy and all types of metals. We supply to the USA, Europe, Middle East, and Asia, including Pan India.",
+  "cin": "[Placeholder CIN]",
+  "pan": "BFGPP9203L",
+  "gstin": "24BFGPP9203L1Z7",
+  "overview": "Ferro Fine Alloys, established in 2008, is a pioneer in Powder Metallurgy and all types of metals. We supply to the USA, Europe, Middle East, and Asia, including Pan India.",
   "mission": "To supply products of unrivaled quality and be a partner in progress of respected clientele.",
   "vision": "To become a chief non-ferrous trading company that provides customer satisfaction through value for money.",
   "features": [
@@ -15,8 +18,8 @@
   "headquarters": {
     "region": "India",
     "factoryAddress": "[Placeholder Factory Address]",
-    "registeredAddress": "[Placeholder Registered Address]",
-    "phone": "[Placeholder Phone Number]",
+    "registeredAddress": "Shop No-104, First Floor, Vinayak Skydeck, Pdpu Road, Gandhinagar, Raysan, Gujarat - 382426, India",
+    "phone": "+91 97129 79835",
     "landline": "[Placeholder Landline Number]",
     "email": "info@ferrofinealloys.com",
     "domain": "www.ferrofinealloys.com"
