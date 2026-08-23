@@ -25,7 +25,7 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-b from-[#002045]/90 via-[#002045]/60 to-[var(--color-background)]"></div>
         </div>
         
-        <div className="relative z-10 max-w-5xl mx-auto px-6 text-center pt-32 pb-16">
+        <div className="relative z-10 max-w-5xl mx-auto px-6 text-center pt-24 pb-12">
           
           {/* Company Identity */}
           <div className="flex flex-col items-center justify-center mb-2 w-full px-4">
@@ -34,7 +34,7 @@ export default function Home() {
               alt="Ferro Fine Alloys Logo" 
               width={300} 
               height={300} 
-              className="w-auto h-32 md:h-48 lg:h-64 mb-4 mt-8 object-contain brightness-0 invert drop-shadow-2xl"
+              className="w-auto h-24 md:h-32 lg:h-48 mb-4 mt-8 object-contain brightness-0 invert drop-shadow-2xl"
               priority
             />
             <Image 
@@ -42,7 +42,7 @@ export default function Home() {
               alt="Ferro Fine Alloys Text" 
               width={800} 
               height={200} 
-              className="w-auto h-16 md:h-24 lg:h-32 mb-0 object-contain brightness-0 invert drop-shadow-2xl max-w-[90vw]"
+              className="w-auto h-12 md:h-16 lg:h-24 mb-0 object-contain brightness-0 invert drop-shadow-2xl max-w-[90vw]"
               priority
             />
           </div>
