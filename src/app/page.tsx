@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className="flex flex-col w-full bg-[var(--color-background)]">
       {/* Hero Section */}
-      <section className="relative w-full h-[80vh] min-h-[600px] flex items-center justify-center overflow-hidden">
+      <section className="relative w-full min-h-[80vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0 bg-[#001024]">
           <Image
             src="/hero_bg.png"
@@ -25,7 +25,7 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-b from-[#002045]/90 via-[#002045]/60 to-[var(--color-background)]"></div>
         </div>
         
-        <div className="relative z-10 max-w-5xl mx-auto px-6 text-center mt-20">
+        <div className="relative z-10 max-w-5xl mx-auto px-6 text-center pt-32 pb-16">
           
           {/* Company Identity */}
           <div className="flex flex-col items-center justify-center mb-2 w-full px-4">
