@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "catalog": "Catalogue",
+    "rfq_basket": "Panier de Devis",
+    "contact": "Contact",
+    "language": "Langue"
+  },
+  "home": {
+    "unrivaled_quality": "Qualité inégalée en",
+    "metals": "Métallurgie des Poudres et Métaux",
+    "explore_catalog": "Explorer le Catalogue",
+    "global_logistics": "Logistique Mondiale",
+    "corporate_overview": "Aperçu de l'Entreprise",
+    "core_pillars": "Piliers Fondamentaux et Infrastructure",
+    "world_class_quality": "Qualité de Classe Mondiale",
+    "quality_desc": "Engagés à fournir un large éventail de métaux en stricte conformité avec les normes réglementaires, assurés par des procédures rigoureuses de test de qualité.",
+    "professional_team": "Pionniers de la Métallurgie des Poudres",
+    "team_desc": "Créée en 2008, Ferro Fine Alloys est pionnière dans la métallurgie des poudres et tous types de métaux, fournissant les marchés mondiaux avec une expertise inégalée.",
+    "spacious_warehouse": "Portée Mondiale",
+    "warehouse_desc": "Approvisionnement des États-Unis, de l'Europe, du Moyen-Orient et de l'Asie, y compris toute l'Inde, garantissant une livraison rapide et un service fiable.",
+    "premium_materials": "Matériaux Premium",
+    "product_portfolio": "Portefeuille de Produits",
+    "hover_explore": "Survolez pour explorer notre vaste gamme de métaux industriels, poudres et produits carbonés.",
+    "trusted_worldwide": "Faisant confiance dans le monde entier",
+    "global_partners": "Partenaires Industriels Mondiaux",
+    "company_mission": "Fournir des produits d'une qualité inégalée et être un partenaire dans le progrès de notre clientèle respectée.",
+    "company_vision": "Devenir une entreprise leader dans le commerce des métaux non ferreux offrant la satisfaction du client grâce à un excellent rapport qualité-prix.",
+    "company_overview": "Ferro Fine Alloys, créée en 2008, est pionnière dans la métallurgie des poudres et tous les types de métaux. Nous fournissons les États-Unis, l'Europe, le Moyen-Orient et l'Asie, y compris toute l'Inde.",
+    "company_features": [
+      "Qualité de Classe Mondiale",
+      "Livraison Rapide",
+      "Soutien Logistique Solide",
+      "Prix Abordables",
+      "Vaste Réseau de Distribution",
+      "Services Fiables"
+    ],
+    "company_profile_summary": "Profil de l'Entreprise"
+  },
+  "contact": {
+    "title": "Logistique Mondiale et Contacts",
+    "subtitle": "Connectez-vous avec notre siège central en Inde ou notre point logistique international.",
+    "asia_hq": "Opérations Asie et Siège Social",
+    "north_america": "Pôle International",
+    "factory_address": "Adresse de l'Usine",
+    "registered_address": "Siège Social",
+    "email": "Demandes par E-mail",
+    "phone": "Téléphone et WhatsApp",
+    "location": "Emplacement",
+    "timezone": "Fuseau Horaire"
+  },
+  "rfq": {
+    "title": "Demande de Prix (RFQ)",
+    "subtitle": "Créez une demande corporative unifiée pour plusieurs matériaux et volumes. Notre équipe d'approvisionnement répondra dans les 24 heures.",
+    "basket_items": "Articles du Panier RFQ",
+    "product_grade": "Qualité du Produit",
+    "quantity": "Quantité (Tonnes)",
+    "sizing": "Taille",
+    "add_product": "Ajouter un Autre Produit",
+    "buyer_identity": "Identité de l'Acheteur",
+    "company_name": "Nom de l'Entreprise",
+    "contact_person": "Personne de Contact",
+    "contact_number": "Numéro de Contact",
+    "email_address": "Adresse E-mail",
+    "destination_port": "Port / Ville de Destination",
+    "submit_rfq": "Soumettre la RFQ aux Achats",
+    "select_product": "Sélectionner un Produit...",
+    "other_specify": "Autre (Préciser dans les notes)",
+    "placeholder_qty": "ex. 20",
+    "placeholder_size": "ex. 10-50mm"
+  },
+  "products": {
+    "title": "Catalogue de Matériaux Industriels",
+    "subtitle": "Explorez notre gamme complète de poudres métalliques atomisées, de ferroalliages et de produits métallurgiques.",
+    "specifications": "Spécifications"
+  },
+  "footer": {
+    "cin": "",
+    "incorporated": "Créé:",
+    "all_rights": "Tous droits réservés."
+  }
+}

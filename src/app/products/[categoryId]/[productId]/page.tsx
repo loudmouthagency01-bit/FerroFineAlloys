@@ -97,21 +97,21 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
               </h2>
               <div className="bg-slate-50 dark:bg-[#060b17] border border-slate-200 dark:border-slate-800 p-8">
                 <ul className="space-y-4 font-mono text-sm text-slate-700 dark:text-slate-300">
-                  <li className="flex justify-between border-b border-slate-200 dark:border-slate-800 pb-2">
+                  <li className="flex flex-col sm:flex-row sm:justify-between border-b border-slate-200 dark:border-slate-800 pb-2 gap-1 sm:gap-4">
                     <span className="text-slate-500 uppercase tracking-wider">Product Category</span>
-                    <span className="text-right">{category.name}</span>
+                    <span className="sm:text-right font-semibold sm:font-normal">{category.name}</span>
                   </li>
-                  <li className="flex justify-between border-b border-slate-200 dark:border-slate-800 pb-2">
+                  <li className="flex flex-col sm:flex-row sm:justify-between border-b border-slate-200 dark:border-slate-800 pb-2 gap-1 sm:gap-4">
                     <span className="text-slate-500 uppercase tracking-wider">Material Grade</span>
-                    <span className="text-right">Standard / Premium</span>
+                    <span className="sm:text-right font-semibold sm:font-normal">Standard / Premium</span>
                   </li>
-                  <li className="flex justify-between border-b border-slate-200 dark:border-slate-800 pb-2">
+                  <li className="flex flex-col sm:flex-row sm:justify-between border-b border-slate-200 dark:border-slate-800 pb-2 gap-1 sm:gap-4">
                     <span className="text-slate-500 uppercase tracking-wider">Chemical Analysis</span>
-                    <span className="text-right text-blue-600 dark:text-blue-400">Available on Request</span>
+                    <span className="sm:text-right font-semibold sm:font-normal text-blue-600 dark:text-blue-400">Available on Request</span>
                   </li>
-                  <li className="flex justify-between pb-2">
+                  <li className="flex flex-col sm:flex-row sm:justify-between pb-2 gap-1 sm:gap-4">
                     <span className="text-slate-500 uppercase tracking-wider">Particle Size / Dimensions</span>
-                    <span className="text-right">Customizable as per requirement</span>
+                    <span className="sm:text-right font-semibold sm:font-normal">Customizable as per requirement</span>
                   </li>
                 </ul>
               </div>

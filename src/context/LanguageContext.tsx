@@ -3,8 +3,12 @@
 import React, { createContext, useContext, useState, ReactNode } from "react";
 import en from "@/i18n/en.json";
 import hi from "@/i18n/hi.json";
+import ar from "@/i18n/ar.json";
+import es from "@/i18n/es.json";
+import de from "@/i18n/de.json";
+import fr from "@/i18n/fr.json";
 
-type Language = "en" | "hi";
+type Language = "en" | "hi" | "ar" | "es" | "de" | "fr";
 
 interface LanguageContextType {
   language: Language;
@@ -15,6 +19,10 @@ interface LanguageContextType {
 const dictionaries: Record<Language, any> = {
   en,
   hi,
+  ar,
+  es,
+  de,
+  fr
 };
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);

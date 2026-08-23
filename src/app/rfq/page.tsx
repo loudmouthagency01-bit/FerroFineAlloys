@@ -100,9 +100,9 @@ export default function RFQPage() {
                 const category = productsData.find(c => c.id === item.categoryId);
                 
                 return (
-                  <div key={idx} className="grid grid-cols-1 md:grid-cols-12 gap-4 items-end bg-slate-50 dark:bg-slate-900/50 p-6 border border-slate-100 dark:border-slate-800">
+                  <div key={idx} className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-12 gap-4 items-end bg-slate-50 dark:bg-slate-900/50 p-4 sm:p-6 border border-slate-100 dark:border-slate-800">
                     
-                    <div className="md:col-span-3">
+                    <div className="sm:col-span-2 md:col-span-3">
                       <label className="block font-mono text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-2">Category</label>
                       <select 
                         required
@@ -122,7 +122,7 @@ export default function RFQPage() {
                       </select>
                     </div>
 
-                    <div className="md:col-span-4">
+                    <div className="sm:col-span-2 md:col-span-4">
                       <label className="block font-mono text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-2">{t("rfq.product_grade")}</label>
                       <select 
                         required
@@ -142,7 +142,7 @@ export default function RFQPage() {
                       </select>
                     </div>
 
-                    <div className="col-span-6 md:col-span-2">
+                    <div className="col-span-1 md:col-span-2">
                       <label className="block font-mono text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-2">{t("rfq.quantity")}</label>
                       <input 
                         type="text" 
@@ -157,7 +157,7 @@ export default function RFQPage() {
                       />
                     </div>
                     
-                    <div className="col-span-6 md:col-span-2">
+                    <div className="col-span-1 md:col-span-2">
                       <label className="block font-mono text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-2">{t("rfq.sizing")}</label>
                       <input 
                         type="text" 
@@ -172,7 +172,7 @@ export default function RFQPage() {
                       />
                     </div>
 
-                    <div className="col-span-12 md:col-span-1 flex justify-end">
+                    <div className="sm:col-span-2 md:col-span-1 flex justify-start sm:justify-end mt-2 md:mt-0">
                       <button 
                         type="button"
                         onClick={() => {
@@ -181,9 +181,10 @@ export default function RFQPage() {
                           newBasket.splice(idx, 1);
                           setBasket(newBasket);
                         }}
-                        className={`p-3 transition-colors border border-transparent ${basket.length === 1 ? 'text-slate-300 dark:text-slate-700 cursor-not-allowed' : 'text-red-400 hover:bg-red-50 hover:text-red-600 hover:border-red-200 dark:hover:bg-red-900/20'}`}
+                        className={`p-3 w-full sm:w-auto transition-colors border border-transparent flex items-center justify-center gap-2 ${basket.length === 1 ? 'text-slate-300 dark:text-slate-700 cursor-not-allowed' : 'text-red-400 hover:bg-red-50 hover:text-red-600 hover:border-red-200 dark:hover:bg-red-900/20'}`}
                       >
                         <Trash2 className="w-5 h-5" />
+                        <span className="sm:hidden font-mono text-[10px] font-bold uppercase tracking-widest">Remove Item</span>
                       </button>
                     </div>
                   </div>

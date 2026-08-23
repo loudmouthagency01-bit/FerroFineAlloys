@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "catalog": "Catálogo",
+    "rfq_basket": "Cesta de Cotización",
+    "contact": "Contacto",
+    "language": "Idioma"
+  },
+  "home": {
+    "unrivaled_quality": "Calidad inigualable en",
+    "metals": "Pulvimetalurgia y Metales",
+    "explore_catalog": "Explorar Catálogo",
+    "global_logistics": "Logística Global",
+    "corporate_overview": "Visión Corporativa",
+    "core_pillars": "Pilares Centrales e Infraestructura",
+    "world_class_quality": "Calidad de Clase Mundial",
+    "quality_desc": "Comprometidos a proporcionar una amplia gama de metales en estricto cumplimiento con los estándares normativos, garantizado por rigurosos procedimientos de prueba de calidad.",
+    "professional_team": "Pioneros en Pulvimetalurgia",
+    "team_desc": "Establecida en 2008, Ferro Fine Alloys es pionera en pulvimetalurgia y todo tipo de metales, suministrando a los mercados globales con una experiencia inigualable.",
+    "spacious_warehouse": "Alcance Global",
+    "warehouse_desc": "Suministrando a EE. UU., Europa, Medio Oriente y Asia, incluida toda la India, garantizando una entrega rápida y un servicio confiable.",
+    "premium_materials": "Materiales Premium",
+    "product_portfolio": "Portafolio de Productos",
+    "hover_explore": "Pase el cursor para explorar nuestra amplia gama de metales industriales, polvos y productos de carbono.",
+    "trusted_worldwide": "De confianza en todo el mundo",
+    "global_partners": "Socios Industriales Globales",
+    "company_mission": "Suministrar productos de calidad inigualable y ser un socio en el progreso de nuestra respetada clientela.",
+    "company_vision": "Convertirnos en una empresa líder en comercio de metales no ferrosos que brinde satisfacción al cliente a través de una excelente relación calidad-precio.",
+    "company_overview": "Ferro Fine Alloys, establecida en 2008, es pionera en pulvimetalurgia y todo tipo de metales. Suministramos a EE. UU., Europa, Medio Oriente y Asia, incluida toda la India.",
+    "company_features": [
+      "Calidad de Clase Mundial",
+      "Entrega Oportuna",
+      "Fuerte Apoyo Logístico",
+      "Precios Asequibles",
+      "Amplia Red de Distribución",
+      "Servicios Confiables"
+    ],
+    "company_profile_summary": "Perfil de la Empresa"
+  },
+  "contact": {
+    "title": "Logística Global y Contactos",
+    "subtitle": "Conéctese con nuestra sede central en India o nuestro punto de logística internacional.",
+    "asia_hq": "Sede y Operaciones en Asia",
+    "north_america": "Centro Internacional",
+    "factory_address": "Dirección de la Fábrica",
+    "registered_address": "Oficina Registrada",
+    "email": "Consultas por Correo Electrónico",
+    "phone": "Teléfono y WhatsApp",
+    "location": "Ubicación",
+    "timezone": "Zona Horaria"
+  },
+  "rfq": {
+    "title": "Solicitud de Cotización (RFQ)",
+    "subtitle": "Construya una consulta corporativa unificada para múltiples materiales y volúmenes. Nuestro equipo de adquisiciones responderá dentro de 24 horas.",
+    "basket_items": "Artículos de la Cesta RFQ",
+    "product_grade": "Grado del Producto",
+    "quantity": "Cantidad (Toneladas)",
+    "sizing": "Tamaño",
+    "add_product": "Agregar Otro Producto",
+    "buyer_identity": "Identidad del Comprador",
+    "company_name": "Nombre de la Empresa",
+    "contact_person": "Persona de Contacto",
+    "contact_number": "Número de Contacto",
+    "email_address": "Correo Electrónico",
+    "destination_port": "Puerto / Ciudad de Destino",
+    "submit_rfq": "Enviar RFQ a Adquisiciones",
+    "select_product": "Seleccionar Producto...",
+    "other_specify": "Otro (Especificar en notas)",
+    "placeholder_qty": "ej. 20",
+    "placeholder_size": "ej. 10-50mm"
+  },
+  "products": {
+    "title": "Catálogo de Materiales Industriales",
+    "subtitle": "Explore nuestra amplia gama de polvos metálicos atomizados, ferroaleaciones y productos metalúrgicos.",
+    "specifications": "Especificaciones"
+  },
+  "footer": {
+    "cin": "",
+    "incorporated": "Establecido:",
+    "all_rights": "Todos los derechos reservados."
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "catalog": "Katalog",
+    "rfq_basket": "Angebotskorb",
+    "contact": "Kontakt",
+    "language": "Sprache"
+  },
+  "home": {
+    "unrivaled_quality": "Konkurrenzlose Qualität in",
+    "metals": "Pulvermetallurgie & Metalle",
+    "explore_catalog": "Katalog Erkunden",
+    "global_logistics": "Globale Logistik",
+    "corporate_overview": "Unternehmensübersicht",
+    "core_pillars": "Kernpfeiler & Infrastruktur",
+    "world_class_quality": "Weltklasse-Qualität",
+    "quality_desc": "Wir verpflichten uns zur Bereitstellung einer breiten Palette von Metallen unter strikter Einhaltung gesetzlicher Standards, die durch strenge Qualitätsprüfungen gewährleistet werden.",
+    "professional_team": "Pioniere in der Pulvermetallurgie",
+    "team_desc": "Gegründet im Jahr 2008, ist Ferro Fine Alloys ein Pionier in der Pulvermetallurgie und bei allen Arten von Metallen und beliefert globale Märkte mit unübertroffener Expertise.",
+    "spacious_warehouse": "Globale Reichweite",
+    "warehouse_desc": "Belieferung von USA, Europa, dem Nahen Osten und Asien, einschließlich ganz Indien, um schnelle Lieferungen und zuverlässigen Service zu gewährleisten.",
+    "premium_materials": "Premium-Materialien",
+    "product_portfolio": "Produktportfolio",
+    "hover_explore": "Fahren Sie mit der Maus darüber, um unser umfangreiches Sortiment an Industriemetallen, Pulvern und Kohlenstoffprodukten zu erkunden.",
+    "trusted_worldwide": "Weltweit geschätzt",
+    "global_partners": "Globale Industriepartner",
+    "company_mission": "Produkte von unübertroffener Qualität zu liefern und ein Partner für den Fortschritt unserer geschätzten Kundschaft zu sein.",
+    "company_vision": "Ein führendes Handelsunternehmen für Nichteisenmetalle zu werden, das durch ein hervorragendes Preis-Leistungs-Verhältnis Kundenzufriedenheit bietet.",
+    "company_overview": "Ferro Fine Alloys, gegründet 2008, ist ein Pionier der Pulvermetallurgie und aller Arten von Metallen. Wir beliefern die USA, Europa, den Nahen Osten und Asien, einschließlich ganz Indien.",
+    "company_features": [
+      "Weltklasse-Qualität",
+      "Pünktliche Lieferung",
+      "Starke logistische Unterstützung",
+      "Erschwingliche Preise",
+      "Weites Vertriebsnetz",
+      "Zuverlässige Dienstleistungen"
+    ],
+    "company_profile_summary": "Unternehmensprofil"
+  },
+  "contact": {
+    "title": "Globale Logistik & Kontakte",
+    "subtitle": "Verbinden Sie sich mit unserem zentralen Hauptsitz in Indien oder unserem internationalen Logistikpunkt.",
+    "asia_hq": "Asien-Betriebe & Hauptsitz",
+    "north_america": "Internationales Drehkreuz",
+    "factory_address": "Fabrikadresse",
+    "registered_address": "Eingetragener Sitz",
+    "email": "E-Mail-Anfragen",
+    "phone": "Telefon & WhatsApp",
+    "location": "Standort",
+    "timezone": "Zeitzone"
+  },
+  "rfq": {
+    "title": "Angebotsanfrage (RFQ)",
+    "subtitle": "Erstellen Sie eine einheitliche Unternehmensanfrage für mehrere Materialien und Volumen. Unser Beschaffungsteam wird innerhalb von 24 Stunden antworten.",
+    "basket_items": "Angebotskorb Artikel",
+    "product_grade": "Produktklasse",
+    "quantity": "Menge (Tonnen)",
+    "sizing": "Größe",
+    "add_product": "Weiteres Produkt hinzufügen",
+    "buyer_identity": "Käuferidentität",
+    "company_name": "Firmenname",
+    "contact_person": "Kontaktperson",
+    "contact_number": "Kontaktnummer",
+    "email_address": "E-Mail-Adresse",
+    "destination_port": "Bestimmungshafen / Stadt",
+    "submit_rfq": "Anfrage an Beschaffung senden",
+    "select_product": "Produkt auswählen...",
+    "other_specify": "Sonstiges (in Notizen angeben)",
+    "placeholder_qty": "z.B. 20",
+    "placeholder_size": "z.B. 10-50mm"
+  },
+  "products": {
+    "title": "Katalog für Industriematerialien",
+    "subtitle": "Entdecken Sie unser umfassendes Sortiment an verdüsten Metallpulvern, Ferrolegierungen und metallurgischen Produkten.",
+    "specifications": "Spezifikationen"
+  },
+  "footer": {
+    "cin": "",
+    "incorporated": "Gegründet:",
+    "all_rights": "Alle Rechte vorbehalten."
+  }
+}

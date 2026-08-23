@@ -51,19 +51,19 @@ export default function Navigation() {
             </button>
 
             {/* Language Toggle (Hidden on very small screens, moved to menu) */}
-            <div className="hidden sm:flex items-center gap-1 bg-white/10 p-1 border border-white/20 font-mono text-xs font-semibold rounded">
-              <button
-                onClick={() => setLanguage("en")}
-                className={`px-2 md:px-3 py-1.5 md:py-2 transition-all rounded ${language === "en" ? "bg-[var(--color-secondary)] text-white shadow-sm border border-blue-400/50" : "text-white/70 hover:text-white"}`}
+            <div className="hidden sm:flex items-center bg-white/10 border border-white/20 rounded px-2 hover:bg-white/20 transition-colors">
+              <select 
+                value={language}
+                onChange={(e) => setLanguage(e.target.value as any)}
+                className="bg-transparent text-white font-mono text-sm font-semibold py-2 outline-none cursor-pointer appearance-none text-center"
               >
-                EN
-              </button>
-              <button
-                onClick={() => setLanguage("hi")}
-                className={`px-2 md:px-3 py-1.5 md:py-2 transition-all rounded ${language === "hi" ? "bg-[var(--color-secondary)] text-white shadow-sm border border-blue-400/50" : "text-white/70 hover:text-white"}`}
-              >
-                HI
-              </button>
+                <option value="en" className="text-slate-800 font-sans">EN - English</option>
+                <option value="es" className="text-slate-800 font-sans">ES - Español</option>
+                <option value="fr" className="text-slate-800 font-sans">FR - Français</option>
+                <option value="de" className="text-slate-800 font-sans">DE - Deutsch</option>
+                <option value="ar" className="text-slate-800 font-sans">AR - العربية</option>
+                <option value="hi" className="text-slate-800 font-sans">HI - हिन्दी</option>
+              </select>
             </div>
 
             {/* Mobile Menu Toggle */}
@@ -94,22 +94,20 @@ export default function Navigation() {
             </Link>
 
             {/* Mobile Language Toggle */}
-            <div className="sm:hidden flex items-center justify-between bg-white/5 p-2 border border-white/20 font-mono text-xs font-semibold rounded mt-2">
+            <div className="sm:hidden flex items-center justify-between bg-white/5 p-2 border border-white/20 font-mono text-sm font-semibold rounded mt-2">
               <span className="text-white/70 pl-2">Language</span>
-              <div className="flex gap-1">
-                <button
-                  onClick={() => setLanguage("en")}
-                  className={`px-3 py-2 transition-all rounded ${language === "en" ? "bg-[var(--color-secondary)] text-white shadow-sm" : "text-white/70"}`}
-                >
-                  EN
-                </button>
-                <button
-                  onClick={() => setLanguage("hi")}
-                  className={`px-3 py-2 transition-all rounded ${language === "hi" ? "bg-[var(--color-secondary)] text-white shadow-sm" : "text-white/70"}`}
-                >
-                  HI
-                </button>
-              </div>
+              <select 
+                value={language}
+                onChange={(e) => setLanguage(e.target.value as any)}
+                className="bg-slate-800 text-white font-sans p-2 rounded outline-none border border-white/20"
+              >
+                <option value="en">EN - English</option>
+                <option value="es">ES - Español</option>
+                <option value="fr">FR - Français</option>
+                <option value="de">DE - Deutsch</option>
+                <option value="ar">AR - العربية</option>
+                <option value="hi">HI - हिन्दी</option>
+              </select>
             </div>
           </div>
         </div>
