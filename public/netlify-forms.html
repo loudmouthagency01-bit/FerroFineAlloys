@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Netlify Forms Detection</title>
+</head>
+
+<body>
+  <!-- 
+      This file exists solely to allow Netlify to detect and register forms
+      used in the Next.js app during build time since @netlify/plugin-nextjs@5 
+      no longer scans React components for forms.
+    -->
+  <form name="rfq-form" data-netlify="true">
+    <input type="text" name="company_name" />
+    <input type="text" name="contact_person" />
+    <input type="email" name="email" />
+    <input type="tel" name="phone" />
+    <input type="text" name="destination" />
+    <textarea name="basket_details"></textarea>
+  </form>
+</body>
+
+</html>
