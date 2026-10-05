@@ -198,9 +198,9 @@ export default function Home() {
                   }}
                 ></div>
                 
-                {/* Vertical title (Default State) */}
-                <div className="absolute inset-0 flex items-center justify-center md:items-end md:justify-center md:pb-8 opacity-100 md:group-hover:opacity-0 transition-opacity duration-300">
-                  <h4 className="text-white font-bold tracking-widest uppercase md:-rotate-90 whitespace-nowrap text-sm md:text-sm drop-shadow-md">
+                {/* Title (Default State) */}
+                <div className="absolute inset-x-0 bottom-0 p-3 md:p-4 flex flex-col items-center justify-end opacity-100 md:group-hover:opacity-0 transition-opacity duration-300">
+                  <h4 className="text-white font-bold uppercase text-center text-xs md:text-sm drop-shadow-lg leading-snug max-w-full">
                     {product.name}
                   </h4>
                 </div>
